@@ -1,6 +1,6 @@
-# U.S. Web Design System documentation
+# Forest Service fork of the U.S. Web Design System documentation
 
-This repo includes code and documentation for the  U.S. Web Design System website. For information on the Design System (components) themselves, please visit [web-design-standards](https://github.com/uswds/uswds).
+This repo includes code and documentation for the Forest Service fork U.S. Web Design System website. For information on the Design System (components) themselves, please visit [web-design-standards](https://github.com/uswds/uswds).
 
 Note that this README includes steps to pull the latest version of the Design System into your local instance of the documentation.
 
