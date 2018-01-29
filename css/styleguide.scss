@@ -909,6 +909,22 @@ h3 + .button_wrapper {
   background-color: $color-gray-cool-light;
 }
 
+.usa-color-tan {
+  background-color: $fs-tan;
+}
+
+.usa-color-tan-dark {
+  background-color: $fs-tan-dark;
+}
+
+.usa-color-tan-darker {
+  background-color: $fs-tan-darker;
+}
+
+.usa-color-light-blue {
+  background-color: $fs-blue-light;
+}
+
 .usa-color-gold {
   background-color: $color-gold;
 }
@@ -1020,7 +1036,88 @@ h3 + .button_wrapper {
 }
 
 .usa-color-text-white {
-  color: $color-white;
+  color: $white;
+}
+
+.white-on-black {
+  color: $white;
+  background-color: $black;
+}
+
+.white-on-dark-grey {
+  color: $white;
+  background-color: $dark-grey;
+}
+
+.white-on-brown {
+  color: $white;
+  background-color: $fs-brown;
+}
+
+.white-on-brown-dark {
+  color: $white;
+  background-color: $fs-brown;
+}
+
+.white-on-brown-darker {
+  color: $white;
+  background-color: $fs-brown;
+}
+
+.white-on-green {
+  color: $white;
+  background-color: $fs-green;
+}
+
+.white-on-green-dark {
+  color: $white;
+  background-color: $fs-green-dark;
+}
+
+.white-on-green-darker {
+  color: $white;
+  background-color: $fs-green-darker;
+}
+
+.white-on-red{
+  color: $white;
+  background-color: $fs-red;
+}
+
+.white-on-red-dark {
+  color: $white;
+  background-color: $fs-red-dark;
+}
+
+.white-on-red-darker {
+  color: $white;
+  background-color: $fs-red-darker;
+}
+
+.white-on-blue {
+  color: $white;
+  background-color: $fs-blue-light;
+}
+
+
+.black-on-tan {
+  color: $black;
+  background-color: $fs-tan
+}
+
+.black-on-tan-dark {
+  color: $black;
+  background-color: $fs-tan-dark
+}
+
+.black-on-tan-darker {
+  color: $black;
+  background-color: $fs-tan-darker
+}
+
+.black-on-white {
+  color: $black;
+  background-color: $white;
 }
 
 .usa-heading-alt {

@@ -6,7 +6,7 @@ layout: styleguide
 title: Implementations
 category: Getting started
 lead: |
-  Users of the U.S. Web Design System have created implementations for
+  Users of the  U.S. Forest Service Web Design Standards have created implementations for
   popular content management systems, web frameworks, and package managers that
   may help get you started more quickly and easily. Though some implementations
   may not include all of the Design System, they should give your team a strong
