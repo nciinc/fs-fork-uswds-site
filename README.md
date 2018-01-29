@@ -1,13 +1,13 @@
-# Forest Service fork of the U.S. Web Design System documentation
+# Forest Service fork of the  U.S. Forest Service Web Design Standards documentation
 
-This repo includes code and documentation for the Forest Service fork U.S. Web Design System website. For information on the Design System (components) themselves, please visit [web-design-standards](https://github.com/uswds/uswds).
+This repo includes code and documentation for the Forest Service fork  U.S. Forest Service Web Design Standards website. For information on the Design System (components) themselves, please visit [web-design-standards](https://github.com/uswds/uswds).
 
 Note that this README includes steps to pull the latest version of the Design System into your local instance of the documentation.
 
 
 ## Running locally
 
-The U.S. Web Design System documentation is built using Jekyll for the file framework, gulp for task management, and the node module for the Design System.
+The  U.S. Forest Service Web Design Standards documentation is built using Jekyll for the file framework, gulp for task management, and the node module for the Design System.
 
 
 ### Before you start
