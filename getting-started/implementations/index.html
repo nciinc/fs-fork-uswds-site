@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+  
+
+<title>Implementations | U.S. Forest Service Web Design Standards Documentation</title>
+<meta property="og:title" content="Implementations | U.S. Forest Service Web Design Standards Documentation">
+
+
+
+<meta name="description" content="Users of the  U.S. Forest Service Web Design Standards have created implementations for
+popular content management systems, web frameworks, and package managers that
+may help get you started more quickly and easily. Though some implementations
+may not include all of the Design System, they should give your team a strong
+foundation to work from.">
+<meta property="og:description" content="Users of the  U.S. Forest Service Web Design Standards have created implementations for
+popular content management systems, web frameworks, and package managers that
+may help get you started more quickly and easily. Though some implementations
+may not include all of the Design System, they should give your team a strong
+foundation to work from.">
+
+<meta name="twitter:card" value="summary">
+<meta name="twitter:site" content="@USWDS">
+<meta property="og:type" content="article">
+
+
+
+
+
+
+
+
+<!-- Favicons
+================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/favicon-192.png">
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/favicon-144.png">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="/css/styleguide.css">
+
+  </head>
+  <body class="page-implementations layout-styleguide ">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<header class="usa-header site-header" role="banner">
+  <!-- Gov banner BEGIN -->
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
+      <img src="/assets/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here’s how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-https.svg" alt="SSL">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br> The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gov banner END -->
+
+
+  <div class="usa-navbar site-header-navbar">
+    <button class="usa-menu-btn">Menu</button>
+      <div class="usa-logo" id="logo">
+      <div class="fs-branding">
+        <a href="//usda.gov">
+          <img alt="United States Department of Agriculture" class="usda-logo" role="img" src="/assets/img/us-forest-service/usda.svg">
+        </a>
+        <a id="us-forest-service-logo" routerlink="/" href="/"><img alt="US Forest Service" class="fs-logo" role="img" src="/assets/img/us-forest-service/usfslogo.svg" width="50">
+          <div class="fs-name-slogan">
+            <span class="fs-name">U.S. FOREST SERVICE</span>
+            <span class="fs-slogan">Web Design Standards</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <ul class="usa-button-list usa-unstyled-list">
+  <li>
+    <a class="usa-button" href="/getting-started/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+      Download code and design files
+    </a>
+  </li>
+  <li>
+    <a class="usa-button usa-button-outline-inverse" href="https://github.com/18F/fs-fork-uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+      View on GitHub
+    </a>
+  </li>
+</ul>
+
+  </div>
+</header>
+<nav class="site-nav-secondary sticky">
+  <ul>
+    
+  
+  <li>
+    
+      
+
+<a href="/components/">
+  <span>
+    UI components
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/page-templates/">
+  <span>
+    Page templates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/">
+  <span>
+    Getting started
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/design-principles/">
+  <span>
+    Design principles
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/">
+  <span>
+    What’s new
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+  </ul>
+</nav>
+<div class="usa-overlay"></div>
+
+<nav role="navigation" class="usa-nav sidenav-mobile">
+  <div class="usa-nav-inner">
+    <button class="usa-nav-close">
+      <img src="/assets/img/close.svg" alt="close">
+    </button>
+    <ul class="usa-sidenav-list usa-accordion">
+      
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-ui-components"
+  
+  aria-expanded="false"
+  >
+  UI components
+</button>
+<ul id="nav-ui-components" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/components/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/typography/">
+  <span>
+    Typography
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/colors/">
+  <span>
+    Colors
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/accessibility/">
+  <span>
+    Accessibility
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/grids/">
+  <span>
+    Grids
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/buttons/">
+  <span>
+    Buttons
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/labels/">
+  <span>
+    Labels
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/tables/">
+  <span>
+    Tables
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/alerts/">
+  <span>
+    Alerts
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/accordions/">
+  <span>
+    Accordions
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/form-controls/">
+  <span>
+    Form controls
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/form-templates/">
+  <span>
+    Form templates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/search-bar/">
+  <span>
+    Search bar
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/sidenav/">
+  <span>
+    Side navigation
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/headers/">
+  <span>
+    Headers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/footers/">
+  <span>
+    Footers
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<a href="/page-templates/">
+  <span>
+    Page templates
+  </span>
+</a>
+
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-getting-started"
+  
+  class="usa-current"
+  aria-expanded="true"
+  >
+  Getting started
+</button>
+<ul id="nav-getting-started" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/getting-started/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/developers/">
+  <span>
+    For developers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/designers/">
+  <span>
+    For designers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/performance/">
+  <span>
+    Performance guidelines
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/code-guidelines/">
+  <span>
+    Code guidelines
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/video-tutorials/">
+  <span>
+    Video tutorials
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/implementations/" class="usa-current">
+  <span>
+    Implementations
+  </span>
+</a>
+
+  
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/showcase/">
+  <span>
+    Showcase
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<a href="/design-principles/">
+  <span>
+    Design principles
+  </span>
+</a>
+
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-what-s-new"
+  
+  aria-expanded="false"
+  >
+  What’s new
+</button>
+<ul id="nav-what-s-new" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/whats-new/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/releases/">
+  <span>
+    Release notes
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/updates/">
+  <span>
+    News and updates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/product-roadmap/">
+  <span>
+    Product roadmap
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/research/">
+  <span>
+    Research
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+
+    </ul>
+    <ul class="usa-button-list usa-unstyled-list">
+  <li>
+    <a class="usa-button" href="/getting-started/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+      Download code and design files
+    </a>
+  </li>
+  <li>
+    <a class="usa-button usa-button-outline-inverse" href="https://github.com/18F/fs-fork-uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+      View on GitHub
+    </a>
+  </li>
+</ul>
+
+  </div>
+</nav>
+
+
+<aside class="sidenav sticky">
+  
+  
+  <ul class="usa-sidenav-list">
+    
+  
+  <li>
+    
+      
+
+<a href="/getting-started/">
+  
+    Overview
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/developers/">
+  
+    For developers
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/designers/">
+  
+    For designers
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/performance/">
+  
+    Performance guidelines
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/code-guidelines/">
+  
+    Code guidelines
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/video-tutorials/">
+  
+    Video tutorials
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/implementations/" class="usa-current">
+  
+    Implementations
+  
+</a>
+
+  
+    
+    
+    
+    
+    
+    <ul class="usa-sidenav-sub_list">
+  
+  <li>
+    
+      
+
+
+<a href="#django">Django</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#django">Django</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#drupal">Drupal</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#jekyll">Jekyll</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#npm-and-gulp">npm and gulp</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#npm-and-node-sass">npm and node-sass</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#nuget">NuGet</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#rails-gem">Rails gem</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#ruby-gem">Ruby gem</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#webjars">WebJars</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#wordpress">WordPress</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#wordpress">WordPress</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#wordpress">WordPress</a>
+
+    
+  </li>
+
+</ul>
+    
+  
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/showcase/">
+  
+    Showcase
+  
+</a>
+
+
+    
+  </li>
+
+
+  </ul>
+  
+</aside>
+
+<main id="main-content" class="main-content">
+
+  <div class="styleguide-content usa-content">
+    <header>
+      
+        
+          <p class="site-subheading">Getting started</p>
+        
+      
+      <h1 id="implementations">Implementations</h1>
+      
+    </header>
+
+    
+<p class="usa-font-lead">Users of the  U.S. Forest Service Web Design Standards have created implementations for
+popular content management systems, web frameworks, and package managers that
+may help get you started more quickly and easily. Though some implementations
+may not include all of the Design System, they should give your team a strong
+foundation to work from.</p>
+
+
+
+
+    <p>If you have a new implementation to add to this list, please <a href="https://github.com/uswds/uswds-site/issues/new">open an issue</a> or <a href="mailto:uswds@gsa.gov">send us an email</a> with the following information:</p>
+
+<ul>
+<li>The implementation’s target language and/or framework</li>
+<li>The author’s name (or alias) and contact URL or email address</li>
+<li>The most recent <a href="/whats-new/releases/">version</a> of the Design System that the project targets</li>
+<li>Any useful caveats or other notes</li>
+</ul>
+
+<div class="usa-alert usa-alert-warning">
+  <div class="usa-alert-body">
+    <h3 class="usa-alert-heading">Heads up</h3>
+    <p class="usa-alert-text">Some of the implementations listed here are not affiliated or endorsed, and have not been tested, by the Design System team. Use them at your own discretion.</p>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Distribution</th>
+      <th>Author or maintainer</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+
+  <tr id="django">
+    <th scope="row">
+      <strong><a href="https://github.com/department-of-veterans-affairs/django-designstandards">Django</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/paultag">Paul Tagliamonte (USDS)</a>
+      
+    </td>
+    <td>This package provides access to the Design System in <a href="https://www.djangoproject.com/">Django</a> applications.
+</td>
+  </tr>
+
+  <tr id="django-uswds-forms">
+    <th scope="row">
+      <strong><a href="http://django-uswds-forms.readthedocs.io/en/latest/">Django</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/18F">18F</a>
+      
+    </td>
+    <td>This package provides Django Forms integration with the Design System.
+</td>
+  </tr>
+
+  <tr id="drupal">
+    <th scope="row">
+      <strong><a href="https://www.drupal.org/project/uswds">Drupal</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://www.drupal.org/u/brockfanning">Brock Fanning</a>
+      
+    </td>
+    <td>This base theme focuses on tweaking Drupal&rsquo;s markup so that it will work with the USWDS library. Some CSS is added to deal with unavoidable Drupal quirks, but only as a last resort.
+</td>
+  </tr>
+
+  <tr id="jekyll">
+    <th scope="row">
+      <strong><a href="https://github.com/18f/uswds-jekyll">Jekyll</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/18F">18F</a>
+      
+    </td>
+    <td>A <a href="https://jekyllrb.com/">Jekyll</a> theme for the Design System.
+</td>
+  </tr>
+
+  <tr id="npm-and-gulp">
+    <th scope="row">
+      <strong><a href="https://github.com/18F/uswds-simple-sass">npm and gulp</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/18F">18F</a>
+      
+    </td>
+    <td>This is a simple Node JS-based &ldquo;starter project&rdquo; that uses gulp and gulp-sass to
+power a development workflow for a one-page site that leverages the Design System&rsquo;
+SASS. Note that this is a starter project and <em>not</em> a reusable package.
+</td>
+  </tr>
+
+  <tr id="npm-and-node-sass">
+    <th scope="row">
+      <strong><a href="https://github.com/openbrian/18f-contrib-web-design-standards">npm and node-sass</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/openbrian">Brian DeRocher</a>
+      
+    </td>
+    <td>This package provides seamless integration with node-sass and grunt pipelines.
+</td>
+  </tr>
+
+  <tr id="nuget">
+    <th scope="row">
+      <strong><a href="https://www.nuget.org/packages/web-design-standards/">NuGet</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://www.nuget.org/profiles/montyaahad">Abdul Ahad Monty</a>
+      
+    </td>
+    <td>The NuGet Package has been created to access the library easily from Visual Studio <a href="https://www.nuget.org/">NuGet Package Manager</a>.
+</td>
+  </tr>
+
+  <tr id="rails-gem">
+    <th scope="row">
+      <strong><a href="https://github.com/18F/uswds-rails-gem">Rails gem</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/18F">18F</a>
+      
+    </td>
+    <td>This <a href="http://rubyonrails.org/">Ruby on Rails</a> gem is used and actively maintained by 18F.
+</td>
+  </tr>
+
+  <tr id="ruby-gem">
+    <th scope="row">
+      <strong><a href="https://github.com/18F/us_web_design_standards_gem">Ruby gem</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/18F">18F</a>
+      
+    </td>
+    <td><strong>This gem has been deprecated in favor of the <a href="#rails-gem">Rails gem</a>.</strong> Please <a href="https://github.com/18F/us_web_design_standards_gem/issues/new">let us know</a> if you&rsquo;d like to adopt it.
+</td>
+  </tr>
+
+  <tr id="webjars">
+    <th scope="row">
+      <strong><a href="https://mvnrepository.com/artifact/org.webjars/uswds">WebJars</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/vjkapur">VJ Kapur</a>
+      
+    </td>
+    <td>For Java- and JVM-based build tools, such as Maven and Gradle.
+</td>
+  </tr>
+
+  <tr id="wordpress">
+    <th scope="row">
+      <strong><a href="https://github.com/BBGInnovate/bbgRedesign">WordPress</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/BBGInnovate">Broadcasting Board of Governors (BBG)</a>
+      
+    </td>
+    <td>This is not a reusable WordPress theme, but an implementation of the Design System for <a href="https://www.bbg.gov/">bbg.gov</a>.
+</td>
+  </tr>
+
+  <tr id="wordpress-benjamin">
+    <th scope="row">
+      <strong><a href="https://github.com/kyle-jennings/Benjamin">WordPress</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/kyle-jennings">Kyle Jennings</a>
+      
+    </td>
+    <td>A WordPress theme built with Automattic&rsquo;s _s, the  U.S. Forest Service Web Design Standards, and the needs of the people. For additional components and shortcodes, check out the <a href="https://github.com/kyle-jennings/Franklin">Franklin</a> plugin.
+</td>
+  </tr>
+
+  <tr id="the-standards">
+    <th scope="row">
+      <strong><a href="https://github.com/LavertyCreative/The-Standards">WordPress</a></strong>
+    </th>
+    <td>
+      
+      <a href="https://github.com/lavekyl">Kyle Laverty</a>
+      
+    </td>
+    <td>The Standards is a WordPress theme that is based on the  U.S. Forest Service Web Design Standards.
+</td>
+  </tr>
+
+</table>
+
+  </div>
+
+</main>
+
+
+<footer class="usa-footer usa-footer-medium site" role="contentinfo">
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid">
+      <div class="usa-width-one-fourth">
+        <img class="footer-main-img" src="/img/home/homepage_illustrations_best_easiest_2x.png" alt="">
+      </div>
+      <div class="usa-width-three-fourths footer-content">
+        <h3>Become part of the community</h3>
+        <p>The  U.S. Forest Service Web Design Standards has grown into a blossoming, open source community of government engineers, content specialists, and designers. We currently support dozens of agencies and more than 100 sites, which is fueled through an active community of contributors both in and out of government.</p>
+        <div class="usa-grid-full footer-contact-links">
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-question.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Running into an issue?</h4>
+                <a href="https://github.com/18F/fs-fork-uswds/issues/new">
+                  Ask questions on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-slack.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Engage with the community</h4>
+                <a href="https://chat.18f.gov/">
+                  Join our Slack channel
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-envelope.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Reach the team</h4>
+                <a href="mailto:uswds@gsa.gov">
+                  Send us an email
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-section-bottom">
+    <div class="usa-grid">
+      <div class="logo-links">
+        <a href="http://www.gsa.gov/">
+          <img src="/img/logo-gsa.png" alt="GSA">
+        </a>
+      </div>
+      <p>The  U.S. Forest Service Web Design Standards is a project of GSA’s <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Service</a>, maintained by the Office of Products and Programs.</p>
+      <p>This website is hosted on <a href="https://federalist.fr.cloud.gov">Federalist</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+    	<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+	<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-48605964-43', 'gsa.gov');
+
+	  // anonymize user IPs (chops off the last IP triplet)
+	  ga('set', 'anonymizeIp', true);
+
+	  // forces SSL even if the page were somehow loaded over http://
+	  ga('set', 'forceSSL', true);
+
+	  ga('send', 'pageview');
+	</script>
+
+<script src="/assets/js/styleguide.js"></script>
+
+<script src="/assets/js/vendor/uswds.min.js"></script>
+
+  </body>
+</html>

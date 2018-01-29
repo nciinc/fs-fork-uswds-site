@@ -1,0 +1,2372 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+  
+
+<title>Release notes | U.S. Forest Service Web Design Standards Documentation</title>
+<meta property="og:title" content="Release notes | U.S. Forest Service Web Design Standards Documentation">
+
+
+
+<meta name="description" content="Design and build fast, accessible, mobile-friendly government websites backed by user research.">
+<meta property="og:description" content="Design and build fast, accessible, mobile-friendly government websites backed by user research.">
+
+<meta name="twitter:card" value="summary">
+<meta name="twitter:site" content="@USWDS">
+<meta property="og:type" content="article">
+
+
+
+
+
+
+
+
+<!-- Favicons
+================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/favicon-192.png">
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/favicon-144.png">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="/css/styleguide.css">
+
+  </head>
+  <body class="page-release-notes layout-styleguide ">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<header class="usa-header site-header" role="banner">
+  <!-- Gov banner BEGIN -->
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
+      <img src="/assets/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here’s how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-https.svg" alt="SSL">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br> The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gov banner END -->
+
+
+  <div class="usa-navbar site-header-navbar">
+    <button class="usa-menu-btn">Menu</button>
+      <div class="usa-logo" id="logo">
+      <div class="fs-branding">
+        <a href="//usda.gov">
+          <img alt="United States Department of Agriculture" class="usda-logo" role="img" src="/assets/img/us-forest-service/usda.svg">
+        </a>
+        <a id="us-forest-service-logo" routerlink="/" href="/"><img alt="US Forest Service" class="fs-logo" role="img" src="/assets/img/us-forest-service/usfslogo.svg" width="50">
+          <div class="fs-name-slogan">
+            <span class="fs-name">U.S. FOREST SERVICE</span>
+            <span class="fs-slogan">Web Design Standards</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <ul class="usa-button-list usa-unstyled-list">
+  <li>
+    <a class="usa-button" href="/getting-started/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+      Download code and design files
+    </a>
+  </li>
+  <li>
+    <a class="usa-button usa-button-outline-inverse" href="https://github.com/18F/fs-fork-uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+      View on GitHub
+    </a>
+  </li>
+</ul>
+
+  </div>
+</header>
+<nav class="site-nav-secondary sticky">
+  <ul>
+    
+  
+  <li>
+    
+      
+
+<a href="/components/">
+  <span>
+    UI components
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/page-templates/">
+  <span>
+    Page templates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/">
+  <span>
+    Getting started
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/design-principles/">
+  <span>
+    Design principles
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/">
+  <span>
+    What’s new
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+  </ul>
+</nav>
+<div class="usa-overlay"></div>
+
+<nav role="navigation" class="usa-nav sidenav-mobile">
+  <div class="usa-nav-inner">
+    <button class="usa-nav-close">
+      <img src="/assets/img/close.svg" alt="close">
+    </button>
+    <ul class="usa-sidenav-list usa-accordion">
+      
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-ui-components"
+  
+  aria-expanded="false"
+  >
+  UI components
+</button>
+<ul id="nav-ui-components" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/components/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/typography/">
+  <span>
+    Typography
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/colors/">
+  <span>
+    Colors
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/accessibility/">
+  <span>
+    Accessibility
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/grids/">
+  <span>
+    Grids
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/buttons/">
+  <span>
+    Buttons
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/labels/">
+  <span>
+    Labels
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/tables/">
+  <span>
+    Tables
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/alerts/">
+  <span>
+    Alerts
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/accordions/">
+  <span>
+    Accordions
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/form-controls/">
+  <span>
+    Form controls
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/form-templates/">
+  <span>
+    Form templates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/search-bar/">
+  <span>
+    Search bar
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/sidenav/">
+  <span>
+    Side navigation
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/headers/">
+  <span>
+    Headers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/components/footers/">
+  <span>
+    Footers
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<a href="/page-templates/">
+  <span>
+    Page templates
+  </span>
+</a>
+
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-getting-started"
+  
+  aria-expanded="false"
+  >
+  Getting started
+</button>
+<ul id="nav-getting-started" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/getting-started/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/developers/">
+  <span>
+    For developers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/designers/">
+  <span>
+    For designers
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/performance/">
+  <span>
+    Performance guidelines
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/code-guidelines/">
+  <span>
+    Code guidelines
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/video-tutorials/">
+  <span>
+    Video tutorials
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/implementations/">
+  <span>
+    Implementations
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/getting-started/showcase/">
+  <span>
+    Showcase
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<a href="/design-principles/">
+  <span>
+    Design principles
+  </span>
+</a>
+
+
+  
+  </li>
+
+  <li>
+  
+  
+    
+
+<button class="usa-accordion-button" aria-controls="nav-what-s-new"
+  
+  class="usa-current"
+  aria-expanded="true"
+  >
+  What’s new
+</button>
+<ul id="nav-what-s-new" class="usa-sidenav-sub_list">
+  
+  
+  
+  <li>
+    
+      
+
+<a href="/whats-new/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/releases/" class="usa-current">
+  <span>
+    Release notes
+  </span>
+</a>
+
+  
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/updates/">
+  <span>
+    News and updates
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/product-roadmap/">
+  <span>
+    Product roadmap
+  </span>
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/research/">
+  <span>
+    Research
+  </span>
+</a>
+
+
+    
+  </li>
+
+
+</ul>
+
+  
+  </li>
+
+
+    </ul>
+    <ul class="usa-button-list usa-unstyled-list">
+  <li>
+    <a class="usa-button" href="/getting-started/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+      Download code and design files
+    </a>
+  </li>
+  <li>
+    <a class="usa-button usa-button-outline-inverse" href="https://github.com/18F/fs-fork-uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+      View on GitHub
+    </a>
+  </li>
+</ul>
+
+  </div>
+</nav>
+
+
+<aside class="sidenav sticky">
+  
+  
+  <ul class="usa-sidenav-list">
+    
+  
+  <li>
+    
+      
+
+<a href="/whats-new/">
+  
+    Overview
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/releases/" class="usa-current">
+  
+    Release notes
+  
+</a>
+
+  
+    
+    
+    
+    
+    
+    <ul class="usa-sidenav-sub_list">
+  
+  <li>
+    
+      
+
+
+<a href="#version-145">1.4.5</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-144">1.4.4</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-143">1.4.3</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-142">1.4.2</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-141">1.4.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-140">1.4.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-131">1.3.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-130">1.3.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-121">1.2.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-120">1.2.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-120-release-candidate-1">1.2.0 release candidate 1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-110">1.1.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-110-pre-release">1.1.0 pre-release</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-100">1.0.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0140">0.14.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0133">0.13.3</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0132">0.13.2</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0131">0.13.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0121">0.12.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0120">0.12.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0111">0.11.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0110">0.11.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-0100">0.10.0</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-096">0.9.6</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-095">0.9.5</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-094">0.9.4</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-093">0.9.3</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-092">0.9.2</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-091">0.9.1</a>
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#version-090">0.9.0</a>
+
+    
+  </li>
+
+</ul>
+    
+  
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/updates/">
+  
+    News and updates
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/product-roadmap/">
+  
+    Product roadmap
+  
+</a>
+
+
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+<a href="/whats-new/research/">
+  
+    Research
+  
+</a>
+
+
+    
+  </li>
+
+
+  </ul>
+  
+</aside>
+
+<main id="main-content" class="main-content">
+
+  <div class="styleguide-content usa-content">
+    <header>
+      
+        
+          <p class="site-subheading">What’s new</p>
+        
+      
+      <h1 id="release-notes">Release notes</h1>
+      
+    </header>
+
+    
+
+
+    <p class="usa-font-lead">The Design System is an ever-evolving product. We’ve been listening to your feedback and using it as a basis for improvements and additions.</p>
+
+<p class="usa-font-lead">Here you’ll find our release notes — summaries of bug fixes, new features, and other updates introduced in each release.</p>
+
+<p>Have suggestions for a new feature or bug fix? <a href="https://github.com/uswds/uswds/issues/new">Open an issue</a> in our repo.</p>
+<h2 id="version-145">Version 1.4.5</h2>
+<p class="site-subheading">January 23, 2018</p>
+
+<h3 id="v1.4.5-changed">Changed</h3>
+
+<ul>
+<li>Optimize images to reduce file size without losing quality #2308 </li>
+<li>Update links to repo to reflect the new GitHub organization and repo name #2313</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-144">Version 1.4.4</h2>
+<p class="site-subheading">December 18, 2017</p>
+
+<h3 id="v1.4.4-fixed">Fixed</h3>
+
+<ul>
+<li>Add vertical space around sidenav at small widths in the documentation template (#1669)</li>
+<li>Update <code>.usa-overlay</code> transition to &ldquo;overlay&rdquo; to fix a flicker issue in the the uswds-jekyll template (#2274)</li>
+<li>Fix dropdown arrow display in Internet Explorer 9-11 (#2265)</li>
+<li>Make the focus variables default so they can be overridden (#2266)</li>
+<li>Update jQuery (used in tests) to the latest version and the packages associated with it (#2254)</li>
+<li>Fix unclosed search tag in header (#2236)</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-143">Version 1.4.3</h2>
+<p class="site-subheading">November 20, 2017</p>
+
+<h3 id="v1.4.3-changed">Changed</h3>
+
+<ul>
+<li>Balanced the vertical spacing between elements in the mobile primary and secondary navigation. (#2222, #2228) </li>
+</ul>
+
+<h3 id="v1.4.3-removed">Removed</h3>
+
+<ul>
+<li>Remove unused class (<code>.usa-form-control</code>) from date input (#2225)</li>
+</ul>
+
+<h3 id="v1.4.3-fixed">Fixed</h3>
+
+<ul>
+<li>Allow for underlining in the footer links, except in custom scope (ie <code>.usa-footer-primary-link</code>, <code>.usa-footer-secondary-link</code>, and <code>address</code>) (#2219)</li>
+<li>Adds <code>.usa-footer-secondary-link</code> class to secondary links in the <code>.usa-footer-big</code> footer (#2219)</li>
+<li>Fixed extended header navigation overlap. This ensures that any element following the close button is cleared so there is no overlap. (#2222, #2228 ) </li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-142">Version 1.4.2</h2>
+<p class="site-subheading">November 02, 2017</p>
+
+<h3 id="v1.4.2-changed">Changed</h3>
+
+<ul>
+<li>Use character units (<code>ch</code>) for text max-width for improved performance with different fonts for paragraph text within <code>usa-content</code> (#1866) </li>
+</ul>
+
+<h3 id="v1.4.2-removed">Removed</h3>
+
+<ul>
+<li>Remove unused polyfills from LICENSE (#2189) </li>
+<li>Remove unneeded pattern attribute from date input (#2200) </li>
+</ul>
+
+<h3 id="v1.4.2-fixed">Fixed</h3>
+
+<ul>
+<li>Fix hero component button display </li>
+<li>Fix select input text from overlapping with the icon</li>
+<li>Use pixel-fit icon for the select input dropdown for improved display</li>
+<li>Use correct font family for h6 headings</li>
+<li>Fix select arrow display bug after autofill in Chrome</li>
+<li>Fix duplicate border focus on select input in Firefox</li>
+<li>Fix disappearing focus state on links on hover</li>
+<li>Use caption on table for proper accessibility</li>
+<li>Make telephone number a tel link in the footer for more consistent functionality</li>
+<li>Fix spacing issue in multi-line footer links (#1637)</li>
+<li>Fix style consistency issue on optional and required form labels</li>
+<li>Update table styling with a tighter horizontal space, remove gray background on borderless table heading, and flush left first child on borderless table headings  (#2192) </li>
+<li>Reduce CSS specificity in table and search components (#2062) </li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-141">Version 1.4.1</h2>
+<p class="site-subheading">October 06, 2017</p>
+
+<h3 id="v1.4.1-header-fixes">Header Fixes</h3>
+
+<ul>
+<li>The header style updates introduced in version 1.4 brought a series of bugs that affected mega menu variants of the basic and extended headers. This update reverts some of the changes so the mega menus function correctly. </li>
+</ul>
+
+<h3 id="v1.4.1-documentation-updates">Documentation Updates</h3>
+
+<ul>
+<li>Updates to <code>RELEASE.md</code> to provide more clarity on the release process.</li>
+</ul>
+
+<h3 id="v1.4.1-fixed-bug-with-headless-chrome-tests">Fixed bug with headless Chrome tests</h3>
+
+<ul>
+<li>Use the system&rsquo;s hostname when <code>REMOTE_CHROME_URL</code> is also set and use localhost otherwise.</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-140">Version 1.4.0</h2>
+<p class="site-subheading">September 29, 2017</p>
+
+<h3 id="v1.4.0-accessibility-improvements">Accessibility improvements</h3>
+
+<ul>
+<li>The search button&rsquo;s submit text is now visible to screen readers on all viewport sizes (#2065).</li>
+<li>A number of accessibility improvements have been made to the fractal site (#2057, #2064).</li>
+</ul>
+
+<h3 id="v1.4.0-visual-changes">Visual changes</h3>
+
+<ul>
+<li>Alerts now have a high-contrast left border to help differentiate them from each other and surrounding content (#2095).</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30810299-473b0f64-a1ca-11e7-9075-9db600088d0a.png" alt="image"></p>
+
+<ul>
+<li>Buttons&rsquo; corners are more round to help them feel more button-y and to differentiate them from other elements, like labels (#2098). The spacing of the type inside the buttons is now balanced.</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30810456-d249a584-a1ca-11e7-8e90-1a0825bff642.png" alt="image"></p>
+
+<ul>
+<li>The focus state has been updated to address concerns about contrast (#2112). Users told us the blue focus state on the common blue background color was hard to see. Our update does the following:</li>
+</ul>
+
+<ol>
+<li><p>Chooses a neutral gray that has higher contrast that works well on dark backgrounds and light (big caveat here: while there is no perfect focus state color for every site, one goal we had here is to help designers <em>think critically about what focus state works best for the site they are designing</em>).</p></li>
+<li><p>We offset the focus state a bit in order for the type to breathe a wee bit and help make it more noticeable, especially on objects that are flush the edge of a browser window.</p></li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30810795-d02e6900-a1cb-11e7-9411-698498229008.png" alt="image"></p>
+
+<ul>
+<li>Dropdown menus have been updated (#2115). We changed the following:</li>
+</ul>
+
+<ol>
+<li><p>We changed the icon from a down-caret to a selector. </p></li>
+<li><p>The default state for a dropdown menu should indicate that the menu contains a list of options, rather than the first item on the list (see the example below for an illustration of this).</p></li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30811574-3550c66e-a1ce-11e7-9493-bc9e7b677e05.png" alt="image"></p>
+
+<ul>
+<li><p>A new <code>usa-input-optional</code> class has been added in favor of <code>usa-input-required</code> (#2116). ~~The latter is now deprecated and will be removed in a future release of the Standards, due to evidence that labeling optional fields over required ones is a <a href="http://uxmovement.com/forms/why-users-fill-out-less-if-you-mark-required-fields/">best</a> <a href="https://www.nngroup.com/articles/web-form-design/">practice</a>. <strong>If you feel strongly about this issue, however, please contact the Standards team, as we may un-deprecate <code>usa-input-required</code> if a compelling argument exists.</strong>~~ <strong>Update:</strong> while <code>usa-input-optional</code> is recommended over <code>usa-input-required</code> because it&rsquo;s a <a href="http://uxmovement.com/forms/why-users-fill-out-less-if-you-mark-required-fields/">best</a> <a href="https://www.nngroup.com/articles/web-form-design/">practice</a>, we are keeping the <code>usa-input-required</code> in case anyone still needs it. For more details, see <a href="https://github.com/18F/web-design-standards/issues/2238#issuecomment-345361442">issue #2238</a>.</p></li>
+<li><p>Checkboxes have been updated (#2117). Specifically:</p></li>
+</ul>
+
+<ol>
+<li>Spacing adjustments have been made for a cleaner look.</li>
+<li>The widget has slightly less rounded corners.</li>
+<li>The disabled state looks more disabled (note that accessibility contrast requirements do not apply to disabled elements).</li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30811727-aa5fe412-a1ce-11e7-9688-6087c54dc6a8.png" alt="image"></p>
+
+<ul>
+<li>Labels have been updated (#2118). Specifically:</li>
+</ul>
+
+<ol>
+<li>They have less rounded corners to look less button-y.</li>
+<li>We&rsquo;ve changed the labels from primary-blue to gray to differentiate them from buttons.</li>
+<li>We&rsquo;ve adjusted the spacing to feel more comfy.</li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30813034-e7a2a91a-a1d1-11e7-8bf5-acdc094ee8b0.png" alt="image"></p>
+
+<ul>
+<li>The footer has been visually revamped (#2130). Specifically:</li>
+</ul>
+
+<ol>
+<li>Primary blue links didn&rsquo;t have enough contrast on the light gray background.</li>
+<li>The agency logo has been scaled down to a medium size for the medium footer.</li>
+<li>The contact info has been moved onto one line to consume less vertical space (especially on mobile).</li>
+<li>The overall spacing has been adjusted to be more consistent. </li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30813440-1008f494-a1d3-11e7-89c3-521dbf42f861.png" alt="image"></p>
+
+<ul>
+<li>The header has been visually revamped (#2131). Specifically:</li>
+</ul>
+
+<ol>
+<li>The underline marker extends beneath the down arrow.</li>
+<li>We&rsquo;ve balanced column spacing to align with the grid and allow for longer page titles.</li>
+<li>We&rsquo;ve made overall spacing improvements for consistency.</li>
+</ol>
+
+<p><img src="https://user-images.githubusercontent.com/12564977/30813662-a46f66a4-a1d3-11e7-846b-0f987e6293a2.png" alt="image"></p>
+
+<h3 id="v1.4.0-other-changes">Other changes</h3>
+
+<ul>
+<li><p>The footer example provided by documentation included an <code>&lt;h3&gt;</code> inside an <code>&lt;address&gt;</code>, which was not standard HTML. The <code>&lt;h3&gt;</code> has been moved outside the <code>&lt;address&gt;</code> (#2128).</p></li>
+<li><p>Disabled button styles such as <code>usa-button-disabled</code> are now deprecated (#2152). The <code>disabled</code> attribute on a button is now all that&rsquo;s needed to style a button so it looks disabled. For example, use <code>&lt;button class=&quot;usa-button&quot; disabled&gt;</code> instead of <code>&lt;button class=&quot;usa-button-disabled&quot; disabled&gt;</code>. The old button styles ending in <code>-disabled</code> will be removed in a future release of the Standards.</p></li>
+</ul>
+
+<h3 id="v1.4.0-new-features-for-core-development">New features for core development</h3>
+
+<ul>
+<li><p>A mechanism for testing for visual regressions has been added (#2067, #2129).</p></li>
+<li><p>The <a href="https://www.deque.com/products/axe/">aXe accessibility tool</a> is now run on all fractal components during testing, to ensure that accessibility regressions don&rsquo;t occur.</p></li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-131">Version 1.3.1</h2>
+<p class="site-subheading">August 22, 2017</p>
+
+<h3 id="v1.3.1-bug-fixes">Bug Fixes</h3>
+
+<ul>
+<li>Sub-navigation now has the proper height again (#2092).</li>
+<li>Form submission on the <a href="https://components.standards.usa.gov/">Fractal site</a> is now disabled (#2113).</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-130">Version 1.3.0</h2>
+<p class="site-subheading">July 21, 2017</p>
+
+<h3 id="v1.3.0-new-features">New Features</h3>
+
+<ul>
+<li>Grid Offsets - you can now utilize the <code>usa-offset-*</code> classes to indent elements within the grid (#1721).</li>
+<li>SASS Source In ZIP distribution - The SASS source code for the Standards is now included in the USWDS ZIP distribution, in the <code>scss</code> directory (#1739). All dependencies such as Bourbon and Neat are also included. This makes it easier for people who don&rsquo;t have access to Node&ndash;or who are unfamiliar with the command-line&ndash;to leverage the SASS.</li>
+</ul>
+
+<h3 id="v1.3.0-bug-fixes">Bug Fixes</h3>
+
+<ul>
+<li>Example templates now place the &ldquo;menu&rdquo; mobile navigation button after the site logo in their HTML, resulting in a more logical tab ordering (#1651).  Users of the standards may want to reflect this change onto their own websites for improved accessibility.</li>
+<li>The search button toggle (sometimes present in the header of pages) now works in IE11/Edge (#2034).</li>
+<li>Accordions now work on devices that support both touch and mouse input (#1993).</li>
+<li>A number of radio button and checkbox issues have been fixed (#1929).</li>
+<li>The validator component used for, among other things, password validation, has been fixed (#1992). As part of this work, the <code>js-validate_password</code> class is now deprecated and documentation for this component has been added to the Standards site.</li>
+<li>Users of SASS will no longer see Bourbon deprecation warnings when importing the USWDS stylesheets (#1904).</li>
+<li>When navigation menus contain links to targets on the current page (e.g. <code>#some-section</code>), the menu now collapses after the link is clicked (#1962).</li>
+<li>When accordions are expanded, the top of the accordion is scrolled into view if needed (#2021.).</li>
+</ul>
+
+<h3 id="v1.3.0-kudos">Kudos</h3>
+
+<p>Thanks <a href="https://github.com/colinalford">@colinalford</a> for submitting a pull request to add grid offsets to the Standards!</p>
+
+<p>Thanks <a href="https://github.com/JJFranko">@JJFranko</a> for help figuring out the root cause behind <a href="https://github.com/18F/web-design-standards/issues/1993">#1993</a>!</p>
+
+<p><hr></p>
+<h2 id="version-121">Version 1.2.1</h2>
+<p class="site-subheading">June 07, 2017</p>
+
+<ul>
+<li>Changes to the <code>circle.yml</code> config to fix npm publishing issues. </li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-120">Version 1.2.0</h2>
+<p class="site-subheading">June 06, 2017</p>
+
+<p>This release marks a complete rewrite of our JavaScript to make interactive components more friendly with third-party frameworks such as React and Angular.</p>
+
+<p><strong>:warning: If you&rsquo;re upgrading from a previous version and you use the Standards JS modules in a custom bundle, please read the migration guide.</strong> (If you&rsquo;re using the static JS or don&rsquo;t understand what any of this means, then you can safely skip the guide.)</p>
+
+<h3 id="v1.2.0-new-features">New features</h3>
+
+<ul>
+<li>Lists appearing inside the <code>usa-content</code> class now have the same maximum width as paragraph content.</li>
+<li>All events are now handled via <a href="https://davidwalsh.name/event-delegate">delegation</a>, rather than listeners on individual elements. See other changes for more information on our backwards-compatible API changes.</li>
+<li>Accordions now support multiple open panes with <code>aria-multiselectable=&quot;true&quot;</code> on the <code>.usa-accordion</code> or <code>.usa-accordion-bordered</code> element.</li>
+<li>We no longer polyfill the global <code>Array.prototype.forEach</code> and <code>Array.prototype.filter</code> methods, and instead use the <a href="https://www.npmjs.com/package/array-foreach">array-foreach</a> and <a href="https://www.npmjs.com/package/array-filter">array-filter</a> modules, commonly known as <a href="https://github.com/sindresorhus/ponyfill#how-are-ponyfills-better-than-polyfills">&ldquo;ponyfills&rdquo;</a>. If you&rsquo;re targeting IE9 or earlier and need these methods, you can get them from <a href="https://polyfill.io/v2/docs/">polyfill.io</a>.</li>
+<li><code>usa-alert-paragraph</code> class added for creating alerts that are paragraph width instead of the default width.</li>
+</ul>
+
+<h3 id="v1.2.0-bug-fixes">Bug fixes</h3>
+
+<ul>
+<li>The <code>.usa-skipnav</code> component now works as originally designed, setting <code>tabindex=&quot;0&quot;</code> on the target element when the link is clicked, then returning it to <code>tabindex=&quot;-1&quot;</code> when blurred.</li>
+</ul>
+
+<h3 id="v1.2.0-other-changes">Other changes</h3>
+
+<ul>
+<li>All of our JavaScript and tests have been rewritten to use <a href="https://babeljs.io/learn-es2015/">ES2015</a> features such as <code>const</code>, arrow functions, and template literals. We&rsquo;re using <a href="https://babeljs.io/">Babel</a> to compile to browser-friendly, backward-compatible ES5.</li>
+<li>We have introduced a suite of v1.x compatibility unit tests and a tool called <a href="https://github.com/semantic-release/cracks">cracks</a> to help us avoid introducing breaking JS API changes in the future. (In v2.0.0, the v1.x unit tests will be removed.)</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-120-release-candidate-1">Version 1.2.0 release candidate 1</h2>
+<p class="site-subheading">May 24, 2017</p>
+
+<p>This release marks a complete rewrite of our JavaScript to make interactive components more friendly with third-party frameworks such as React and Angular.</p>
+
+<p>You can install this pre-release with npm:</p>
+
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">npm install --save uswds@1.2.0-rc1
+</code></pre></div>
+
+<p>Please <a href="https://github.com/18F/web-design-standards/issues/new">let us know</a> if you run into any troubles!</p>
+
+<p><strong>:warning: If you&rsquo;re upgrading from a previous version and you use the Standards JS modules in a custom bundle, please read the migration guide.</strong> (If you&rsquo;re using the static JS or don&rsquo;t understand what any of this means, then you can safely skip the guide.)</p>
+
+<h3 id="v1.2.0 release candidate 1-new-features">New features</h3>
+
+<ul>
+<li>Lists appearing inside the <code>usa-content</code> class now have the same maximum width as paragraph content.</li>
+<li>All events are now handled via <a href="https://davidwalsh.name/event-delegate">delegation</a>, rather than listeners on individual elements. See other changes for more information on our backwards-compatible API changes.</li>
+<li>Accordions now support multiple open panes with <code>aria-multiselectable=&quot;true&quot;</code> on the <code>.usa-accordion</code> or <code>.usa-accordion-bordered</code> element.</li>
+<li>We no longer polyfill the global <code>Array.prototype.forEach</code> and <code>Array.prototype.filter</code> methods, and instead use the <a href="https://www.npmjs.com/package/array-foreach">array-foreach</a> and <a href="https://www.npmjs.com/package/array-filter">array-filter</a> modules, commonly known as <a href="https://github.com/sindresorhus/ponyfill#how-are-ponyfills-better-than-polyfills">&ldquo;ponyfills&rdquo;</a>. If you&rsquo;re targeting IE9 or earlier and need these methods, you can get them from <a href="https://polyfill.io/v2/docs/">polyfill.io</a>.</li>
+<li><code>usa-alert-paragraph</code> class added for creating alerts that are paragraph width instead of the default width.</li>
+</ul>
+
+<h3 id="v1.2.0 release candidate 1-bug-fixes">Bug fixes</h3>
+
+<ul>
+<li>The <code>.usa-skipnav</code> component now works as originally designed, setting <code>tabindex=&quot;0&quot;</code> on the target element when the link is clicked, then returning it to <code>tabindex=&quot;-1&quot;</code> when blurred.</li>
+</ul>
+
+<h3 id="v1.2.0 release candidate 1-other-changes">Other changes</h3>
+
+<ul>
+<li>All of our JavaScript and tests have been rewritten to use <a href="https://babeljs.io/learn-es2015/">ES2015</a> features such as <code>const</code>, arrow functions, and template literals. We&rsquo;re using <a href="https://babeljs.io/">Babel</a> to compile to browser-friendly, backward-compatible ES5.</li>
+<li>We have introduced a suite of v1.x compatibility unit tests and a tool called <a href="https://github.com/semantic-release/cracks">cracks</a> to help us avoid introducing breaking JS API changes in the future. (In v2.0.0, the v1.x unit tests will be removed.)</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-110">Version 1.1.0</h2>
+<p class="site-subheading">April 27, 2017</p>
+
+<h4 id="v1.1.0-new-features">New features</h4>
+
+<ul>
+<li>The new <code>.usa-embed-container</code> class responsively resizes <code>&lt;iframe&gt;</code> (and other) elements using a standard aspect ratio.</li>
+<li>We are now using <a href="http://fractal.build">Fractal</a> to preview, test, and document the code for all of our components. <a href="https://federalist.fr.cloud.gov/preview/18f/web-design-standards/release-1.1.0/">Check out this release in Fractal</a>!</li>
+<li>We are now publishing static builds on <a href="https://federalist.18f.gov">Federalist</a>, which means that our release branches will produce predictable, versioned URLs, such as this release&rsquo;s <a href="https://federalist.fr.cloud.gov/preview/18f/web-design-standards/release-1.1.0/dist/css/uswds.min.css">CSS</a> and <a href="https://federalist.fr.cloud.gov/preview/18f/web-design-standards/release-1.1.0/dist/js/uswds.min.js">JavaScript</a>.</li>
+<li>You can now <code>npm run watch</code> to rebuild just the CSS and JavaScript whenever the source files change.</li>
+</ul>
+
+<h4 id="v1.1.0-bug-fixes">Bug fixes</h4>
+
+<ul>
+<li>The visual behavior of the first and last child of <code>.usa-grid-full</code> now matches that of <code>.usa-grid</code>. See #1773 and #1768 for more info.</li>
+<li>We now recommend that footer navigation use the <code>usa-grid</code> class rather than <code>usa-grid-full</code> for better horizontal text alignment. See 18F/web-design-standards-docs#243 for more info.</li>
+<li>Unordered lists within accordions are now styled consistently. See #1719 and the fix in #1825.</li>
+<li>Buttons nested inside accordions without the <code>usa-accordion-button</code> class will not mistakenly trigger the accordion&rsquo;s show/hide logic, as reported in #1762. We&rsquo;ve also refactored the accordion JS to simplify and <a href="https://codeclimate.com/github/18F/web-design-standards/progress">improve coverage</a>. See #1806 for more info.</li>
+</ul>
+
+<h4 id="v1.1.0-other-changes">Other changes</h4>
+
+<ul>
+<li>⚠️  Heading mixins, <code>h1()</code> through <code>h6()</code>, have moved from <code>elements/_typography.scss</code> to <code>core/_utilities.scss</code>. See #1763 and the fix in #1775.</li>
+<li>Add code coverage badge to the README, and a <a href="https://github.com/18F/web-design-standards/blob/develop/CONTRIBUTING.md#code-coverage">coverage section</a> in the contributing docs.</li>
+<li>Update our documentation to reference the new default branch, <code>develop</code> (formerly <code>staging</code>).</li>
+<li>Lots of updates to our running list of <a href="https://github.com/18F/web-design-standards/blob/develop/WHO_IS_USING_USWDS.md">who is using the Standards</a>.</li>
+</ul>
+
+<h4 id="v1.1.0-kudos">Kudos</h4>
+
+<ul>
+<li>Thanks to @sawyerh for the typography mixins in #1775.</li>
+</ul>
+
+<p><hr></p>
+<h2 id="version-110-pre-release">Version 1.1.0 pre-release</h2>
+<p class="site-subheading">April 17, 2017</p>
+
+<p>This is a v1.1.0 preview release. See #1796 for changes since v1.0.0.</p>
+
+<p>You can install this pre-release with npm:</p>
+
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">npm install --save uswds@1.1.0-pre
+</code></pre></div>
+
+<p>Please <a href="https://github.com/18F/web-design-standards/issues/new">let us know</a> if you run into any troubles!</p>
+
+<p><hr></p>
+<h2 id="version-100">Version 1.0.0</h2>
+<p class="site-subheading">February 23, 2017</p>
+
+<p>This is our first official major release. Read about our new <a href="https://github.com/18F/web-design-standards/blob/master/RELEASE.md">release process</a> and how we are updating the workflow to formally follow <a href="http://semver.org">semantic versioning</a>.</p>
+
+<h3 id="v1.0.0-fixed">Fixed</h3>
+
+<ul>
+<li>Disabled submit buttons without the <code>usa-button</code> class were accidentally styled via <code>[type=&quot;submit&quot;]:disabled</code>. We now apply disabled styles only to <code>.usa-button:disabled</code>. See <a href="https://github.com/18F/web-design-standards/issues/1523">#1523</a>.</li>
+<li>Checkbox inputs that are checked <em>and</em> disabled are now styled properly. See <a href="https://github.com/18F/web-design-standards/issues/1628">#1628</a>.</li>
+</ul>
+
+<h3 id="v1.0.0-changes">Changes</h3>
+
+<p>We&rsquo;ve made a couple of changes to our npm configuration:
+- We&rsquo;ve upgraded <code>lodash.debounce</code> to a &ldquo;production&rdquo; dependency, which should solve the problem of missing dependencies for some user installations.
+- Our <code>package.json</code> now references the static &ldquo;tarball&rdquo; version of our release rather than the git endpoint, which means that you can <code>npm install uswds</code> without access to git.</p>
+
+<p>The following are changes to our build tools and process that have no direct impact on the code itself:
+- The <code>README</code>, <code>LICENSE</code>, and <code>CONTRIBUTING</code> markdown documents are now included in our static and npm distributions.
+- Use <a href="https://stylelint.io">stylelint</a> to ensure that our SCSS files meet our own guidelines.
+- Measure JavaScript code coverage with <a href="https://github.com/gotwarlost/istanbul">istanbul</a> and analyze coverage with <a href="https://codeclimate.com/">code climate</a>.
+- Commits (merges) to master are now automatically published to <code>npm</code> via our CI service.</p>
+
+<h3 id="v1.0.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:
+- <a href="https://github.com/awolfe76">@awolfe76</a></p>
+
+<p>If you have questions about these upcoming changes, please feel free to email our team at uswebdesignstandards@gsa.gov.</p>
+
+<p><hr></p>
+<h2 id="version-0140">Version 0.14.0</h2>
+<p class="site-subheading">December 16, 2016</p>
+
+<h3 id="v0.14.0-fixed">Fixed</h3>
+
+<ul>
+<li>Fix styling of alert components that do not have a header <a href="https://github.com/18F/web-design-standards/issues/1430">#1430</a></li>
+<li>Fix government banner font glitch on smaller screen widths <a href="https://github.com/18F/web-design-standards/issues/1571">#1571</a></li>
+<li>Move <code>*Required</code> flag on forms to better placement for low vision users <a href="https://github.com/18F/web-design-standards/issues/1350">#1350</a></li>
+</ul>
+
+<h3 id="v0.14.0-changed">Changed</h3>
+
+<ul>
+<li>Refactor header css to match the JavaScript asset restructuring work <a href="https://github.com/18F/web-design-standards/issues/1434">#1434</a></li>
+<li>Add ability to create a custom alert via Sass mixin </li>
+<li>Remove Politespace as a dependency <a href="https://github.com/18F/web-design-standards/issues/1385">#1385</a></li>
+<li>Use specific subset of <a href="https://github.com/thoughtbot/neat/issues/505#issuecomment-258548222">Bourbon Neat</a>, which allows us to remove Python as a language dependency <a href="https://github.com/18F/web-design-standards/issues/1554">#1554</a></li>
+</ul>
+
+<p>If you have questions about these upcoming changes, please email our team.</p>
+
+<h3 id="v0.14.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/carlosvalle">@carlosvalle</a></li>
+<li>K.C. Jones-Evans</li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.13.3...v0.14.0">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0133">Version 0.13.3</h2>
+<p class="site-subheading">December 01, 2016</p>
+
+<h3 id="v0.13.3-fixed">Fixed</h3>
+
+<ul>
+<li>The fonts were twice as large as they should have been. This was due to <code>!default</code> being added to <code>$em-base</code>, which created a null value for this font sizing. See <a href="https://github.com/18F/web-design-standards/issues/1590">#1590</a> for more details on the issue.</li>
+<li>Fix missing search box for extended header on smaller screens. See <a href="https://github.com/18F/web-design-standards/issues/1572">#1572</a> for more details on the issue.</li>
+</ul>
+
+<h3 id="v0.13.3-changed">Changed</h3>
+
+<ul>
+<li>Added a <a href="https://github.com/18F/web-design-standards/blob/staging/WHO_IS_USING_USWDS.md">WHO<em>IS</em>USING_USWDS.md</a>that lists all of the websites and applications we know of that are currently using the Standards. This replaces the original wiki page. <a href="https://github.com/18F/web-design-standards/pull/1573/files">#1573</a></li>
+<li>Removed copy in the <code>README.md</code> around the repo split. <a href="https://github.com/18F/web-design-standards/pull/1589">#1589</a></li>
+</ul>
+
+<p>If you have questions about these upcoming changes, please email our team.</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.13.2...v0.13.3">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0132">Version 0.13.2</h2>
+<p class="site-subheading">December 01, 2016</p>
+
+<p><strong>⚠️ This release has a few known bugs:</strong>
+- Fix missing search box for extended header on smaller screens. <a href="https://github.com/18F/web-design-standards/issues/1572">#1572</a>
+- Issue around font sizing. <a href="https://github.com/18F/web-design-standards/issues/1590">#1590</a></p>
+
+<p>We recommend upgrading to v0.13.3 of the Standards. If you are unable to do so, please use the attached <strong>uswds-0.13.2patch.css (un-minified)</strong> or <strong>uswds-0.13.2patch.min.css (minified)</strong> and <strong>uswds-0.13.2patch.map</strong> files on this release.</p>
+
+<h3 id="v0.13.2-changed">Changed</h3>
+
+<ol>
+<li>The <a href="https://standards.usa.gov/headers/">header</a> component has been broken up into more modular pieces, each with their own JavaScript tests (<a href="https://github.com/18F/web-design-standards/pull/1522/files">see code changes here</a>). Here is the breakdown of what has been changed:
+
+<ul>
+<li><code>header/mobile</code> is now <code>navigation</code></li>
+<li><code>header/search</code> is now <code>search</code></li>
+<li>To support testing, the navigation and search JS modules both export an <code>off()</code> function for removing listeners added by the top-level export.</li>
+</ul></li>
+<li>The utility functions for element classes (<code>addClass()</code>, <code>removeClass()</code>, and <code>toggleClass()</code>) have been replaced with a <a href="https://www.npmjs.com/package/classlist-polyfill">polyfill</a> for the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">Element.classList</a> property (<a href="https://github.com/18F/web-design-standards/pull/1521/files">see code changes here</a>).</li>
+<li>Some of the SCSS files have been reorganized (<a href="https://github.com/18F/web-design-standards/pull/1536/files">see code changes here</a> and <a href="https://github.com/18F/web-design-standards/pull/1530/files">here</a>). See the deprecation notes (&ldquo;Upcoming backwards incompatible changes&rdquo;) below for more info.</li>
+<li>Our <a href="https://github.com/18F/web-design-standards/tree/master/README.md">README</a> now includes more helpful instructions for users on various platforms and fixes some formatting (<a href="https://github.com/18F/web-design-standards/pull/1539">see code changes here</a>).</li>
+</ol>
+
+<h3 id="v0.13.2-emupcomingem-backwards-incompatible-changes"><em>Upcoming</em> backwards incompatible changes</h3>
+
+<p>We are planning to make the following changes to the Draft U.S. Web Design Standards in future releases. In keeping will <a href="http://semver.org/">semantic versioning</a> conventions, <strong>we will never intentionally introduce breaking changes without updating the minor and major versions accordingly</strong>. Here are the upcoming changes:
+1. <strong>The Standards will no longer require jQuery or include it as part of the package you download.</strong> If you are using jQuery for other parts of your site, you will have to <a href="http://jquery.com/download/">download it</a> separately. It won’t come included in the Standards any more. We decided to make this change because we heard from our users that requiring jQuery for the WDS conflicted with other versions of jQuery they were already using.
+2. We have reorganized some of our SCSS &ldquo;partials&rdquo;, and will be removing the deprecated paths in a future release. If you import the USWDS into your own Sass or SCSS files, here is what you need to know:
+   - We have replaced the SCSS <code>all</code> &ldquo;entry point&rdquo; with <code>uswds</code>, and set up an alias for <code>all</code> (<code>_all.scss</code>) to ease the transition for users of previous versions. Upgrade instructions:
+     - <strong>replace</strong> <code>@import &#39;all&#39;;</code> with <code>@import &#39;uswds&#39;;</code>, or
+     - <strong>replace</strong> <code>@import &#39;uswds/all&#39;;</code> to <code>@import &#39;uswds/uswds&#39;;</code>
+   - We have deprecated the SCSS <code>uswds/defaults</code> partial in favor of <code>uswds/variables</code>, and added <a href="https://robots.thoughtbot.com/sass-default"><code>!default</code></a> to all of our variables so that they can be selectively overridden by a previous import. Upgrade instructions:
+     - <strong>remove</strong> <code>@import &#39;core/defaults&#39;;</code> or <code>@import &#39;uswds/core/defaults&#39;;</code>
+     - <strong>add</strong> <code>@import &#39;core/variables&#39;;</code> if you don&rsquo;t import it already
+     - <strong>move</strong> your variable customizations before <code>@import &#39;core/variables&#39;;</code> for consistency
+     - <strong>remove</strong> any <em>unmodified</em> variable declarations from your customizations to avoid accidentally overriding future changes
+   - <code>uswds/core/grid-settings</code> is no longer necessary, as the grid settings are all declared in <code>uswds/variables</code>. Upgrade instructions:
+     - <strong>remove</strong> <code>@import &#39;core/grid-settings&#39;;</code> or <code>@import &#39;uswds/core/grid-settings&#39;;</code></p>
+
+<p>If you have questions about these upcoming changes, please email our team.</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.13.1...v0.13.2">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0131">Version 0.13.1</h2>
+<p class="site-subheading">October 06, 2016</p>
+
+<h3 id="v0.13.1-emnewem-page-templates-and-government-banners"><em>NEW</em> Page templates and government banners</h3>
+
+<p>This release includes the addition of two different page templates and government verification banners. </p>
+
+<h3 id="v0.13.1-strongupcomingstrong-backwards-incompatible-change"><strong>Upcoming</strong> backwards incompatible change</h3>
+
+<p>In the near future, the Draft U.S. Web Design Standards will no longer include jQuery as part of its package. Users will be required to include <code>jQuery(v2.2.0+)</code> when using the Standards. If you have questions about this upcoming change, please email our team at uswebdesignstandards@gsa.gov. </p>
+
+<h3 id="v0.13.1-fixed">Fixed</h3>
+
+<ul>
+<li>Reduce specificity on inputs <a href="https://github.com/18F/web-design-standards/issues/891">#891</a></li>
+<li>Fix search bar <a href="https://github.com/18F/web-design-standards/issues/1481">#1481</a></li>
+<li>Add missing 5/12 and 7/12 grid items <a href="https://github.com/18F/web-design-standards/issues/1383">#1383</a></li>
+<li>Fixing mobile.js from having duplicative events from firing <a href="https://github.com/18F/web-design-standards/issues/1496">#1496</a></li>
+</ul>
+
+<h3 id="v0.13.1-changed">Changed</h3>
+
+<ul>
+<li>Add background color for thead &gt; tr &gt; td</li>
+<li>Add font smoothing mixin <a href="https://github.com/18F/web-design-standards/issues/1427">#1427</a> <a href="https://github.com/18F/web-design-standards/issues/1440">#1440</a></li>
+<li>De-nest grids <a href="https://github.com/18F/web-design-standards/issues/971">#971</a></li>
+</ul>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.12.1...v0.13.1">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0121">Version 0.12.1</h2>
+<p class="site-subheading">September 09, 2016</p>
+
+<p>This is a patch level release that adds missing images for the mobile version of the new headers component into the <code>src</code> directory. In version 0.12.0 they were added as part of the website/docs assets and not part of the package itself. <strong>Please use v0.12.1 in place of v0.12.0!</strong></p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.12.0...v0.12.1">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0120">Version 0.12.0</h2>
+<p class="site-subheading">September 01, 2016</p>
+
+<p><strong>Updated to 0.12.1:</strong> Release 0.12.0 was missing some images for the new Headers component. You may run into issues using 0.12.0 on your project. </p>
+
+<p><strong>Please use version 0.12.1 in place of 0.12.0!</strong></p>
+
+<h3 id="v0.12.0-emnewem-headers-component"><em>NEW</em> Headers component</h3>
+
+<p>This release includes the addition of a headers component, which helps users identify where they are and provides them a quick, organized way to reach the main sections of a website. <a href="https://standards.usa.gov/headers/">Check out our documentation</a> to learn more about our most recently added component.</p>
+
+<h3 id="v0.12.0-strongupcomingstrong-backwards-incompatible-change"><strong>Upcoming</strong> backwards incompatible change</h3>
+
+<p>In the near future, the Draft U.S. Web Design Standards will no longer include jQuery as part of its package. Users will be required to include <code>jQuery(v2.2.0+)</code> when using the Standards. If you have questions about this upcoming change, please email our team at uswebdesignstandards@gsa.gov. </p>
+
+<h3 id="v0.12.0-fixed">Fixed</h3>
+
+<ul>
+<li>Fix search bar doc links to accessibility guidelines</li>
+<li>Design downloads on WDS site are not current <a href="https://github.com/18F/web-design-standards-assets/issues/37">#37</a></li>
+</ul>
+
+<h3 id="v0.12.0-changed">Changed</h3>
+
+<ul>
+<li>Use Sass variable for font path</li>
+<li>Refactor JavaScript to remove jQuery dependency <a href="https://github.com/18F/web-design-standards/issues/1351">#1351</a></li>
+<li>IE bug on secondary links search form <a href="https://github.com/18F/web-design-standards/issues/1404">#1404</a></li>
+<li>New UI component: Headers and navigation <a href="https://github.com/18F/web-design-standards/issues/1312">#1312</a></li>
+<li>Make CSS background image path links a Sass variable <a href="https://github.com/18F/web-design-standards/issues/1007">#1007</a></li>
+</ul>
+
+<h3 id="v0.12.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/hursey013">hursey013</a></li>
+<li><a href="https://github.com/jessieay">jessieay</a></li>
+<li><a href="https://github.com/carlosvalle">carlosvalle</a></li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.11.1...v0.12.0">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0111">Version 0.11.1</h2>
+<p class="site-subheading">August 18, 2016</p>
+
+<h3 id="v0.11.1-fixed">Fixed</h3>
+
+<ul>
+<li>Remove hash for <code>javascript:void(0);</code> in code examples.</li>
+</ul>
+
+<h3 id="v0.11.1-changed">Changed</h3>
+
+<ul>
+<li>Simplify lists to use browser defaults <a href="https://github.com/18F/web-design-standards/issues/1091">#1091</a>.</li>
+<li>Using sr-only mixin for .usa-sr-only class.</li>
+<li>Generate component example code using <code>gulp</code> tasks.</li>
+<li>Removing JavaScript from website <a href="https://github.com/18F/web-design-standards/issues/1353">#1353</a>.</li>
+</ul>
+
+<h3 id="v0.11.1-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/carlosvalle">@carlosvalle</a></li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.11.0...v0.11.1">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0110">Version 0.11.0</h2>
+<p class="site-subheading">August 04, 2016</p>
+
+<h3 id="v0.11.0-accordion-backwards-compatible-changes">Accordion backwards-compatible changes</h3>
+
+<p>In this release, we&rsquo;ve refactored the accordion code so that it is easier to use, less specific, and more concise. The accordion functionality from previous releases will still work and there are instructions on how to make the upgrade when it best suits the needs of your project.</p>
+
+<h3 id="v0.11.0-fixed">Fixed</h3>
+
+<ul>
+<li>Copyediting for 18F style </li>
+</ul>
+
+<h3 id="v0.11.0-changed">Changed</h3>
+
+<ul>
+<li>[Search bar]: Reduce font size in &lsquo;Medium&rsquo; and &lsquo;Small&rsquo; bars <a href="https://github.com/18F/web-design-standards/issues/594">#594</a></li>
+<li>[Image links]: Remove Firefox patch on media_link class</li>
+<li>[Accordion]: Code refactoring <a href="https://github.com/18F/web-design-standards/issues/1338">#1338</a></li>
+<li>[Website]: Update incorrect documentation on variables</li>
+</ul>
+
+<h3 id="v0.11.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/PilgrimMemoirs">@PilgrimMemoirs</a></li>
+<li><a href="https://github.com/nicoleslaw">@nicoleslaw</a></li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.10.0...v0.11.0">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-0100">Version 0.10.0</h2>
+<p class="site-subheading">July 21, 2016</p>
+
+<p>We have been made aware that we didn&rsquo;t explicitly outline a backwards-incompatible change for the accordion component in <code>v0.9.4</code>, and we&rsquo;d like to apologize for any inconvenience this may have caused you or your team. In the <a href="https://github.com/18F/web-design-standards/releases/tag/v0.9.4">release notes for <code>0.9.4</code></a>, we&rsquo;ve added directions on how to update your accordions with these changes when you make this upgrade.</p>
+
+<h3 id="v0.10.0-backwards-incompatible-changes-version">Backwards-incompatible changes version</h3>
+
+<p>In this release, we&rsquo;ve made a specific backwards-incompatible change to the the structure of the <code>scss</code> files. Prior to this release, users could update their project specific <code>scss</code> variables by changing the values in <code>_variables.scss</code>. This release removes that file and from the core import and will require users to manually add their application-specific Sass files.</p>
+
+<h3 id="v0.10.0-fixed">Fixed</h3>
+
+<ul>
+<li>Remove dead link from form controls and form templates accessibility section <a href="https://github.com/18F/web-design-standards/issues/1313">#1313</a></li>
+<li>Small screen + landscape mode = impossible to scroll because of header height (Moto E, Android 4.4, Chrome 44) <a href="https://github.com/18F/web-design-standards/issues/345">#345</a></li>
+<li>Unordered lists nested inside ordered lists appear ordered <a href="https://github.com/18F/web-design-standards/issues/1328">#1328</a></li>
+</ul>
+
+<h3 id="v0.10.0-changed">Changed</h3>
+
+<ul>
+<li>Remove variables.scss file <a href="https://github.com/18F/web-design-standards/issues/1168">#1168</a></li>
+</ul>
+
+<h3 id="v0.10.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/cfarm">@cfarm</a></li>
+<li><a href="https://github.com/toolness">@toolness</a></li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.6...v0.10.0">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-096">Version 0.9.6</h2>
+<p class="site-subheading">July 14, 2016</p>
+
+<h3 id="v0.9.6-fixed">Fixed</h3>
+
+<ul>
+<li>Fixed an incorrect reference on the typography page. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Fixed some code sample styles. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Styled the site footer by class to prevent further problems with the footer component. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Remapped routes on deployments. <a href="https://github.com/18F/web-design-standards/issues/1308">#1308</a></li>
+<li>Fixed linter errors. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+</ul>
+
+<h3 id="v0.9.6-changed">Changed</h3>
+
+<ul>
+<li>Removed the splash page to provide quicker access to the UI components.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Added a sticky horizontal navigation bar to expand the site content.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Added our product roadmap and component maturity scale.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Eliminated the Visual Design section of the site to prevent confusion, and moved Typography and Colors into the side navigation.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Expanded the Getting Started instructions for developers and designers  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Separated the design file downloads by file type.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>On mobile, moved the Menu button to the right side and added collapsible sections in the mobile navigation.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a> and  <a href="https://github.com/18F/web-design-standards/issues/1314">#1314</a></li>
+<li>Updated the styling of the disclaimer bar to make it less obtrusive. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>For each of the components, we changed the maturity levels to reflect our updated Component Maturity Scale. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>We added an unstyled button mixin. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>We also added a media link mixin that can be used on images inside of links to get proper focus states. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>We updated the grids’ outer margins from 30px to 15px on mobile to increase viewable screen space.  <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>We fixed the alignment of checkboxes and radio buttons (for IE11 and below) so that they’re vertically aligned. <a href="https://github.com/18F/web-design-standards/issues/1300">#1300</a></li>
+<li>We adjusted the max width of lead text to 75 characters. <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Updated our sidenav navigation items to make the line spacing more comfortable when the menu drops to more than one line <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+<li>Changed the sidenav in the page navigation so it’s displayed via Jekyll instead of CSS (this prevents CodeSniffer false positives!). <a href="https://github.com/18F/web-design-standards/issues/1274">#1274</a></li>
+</ul>
+
+<h3 id="v0.9.6-we-love-outside-contributions">We love outside contributions!</h3>
+
+<p>The continued success of the Standards relies on contributions from folks like you. To make a contribution, <a href="https://github.com/18F/web-design-standards/issues/new"> file an issue in our repo</a> (and do let us know if you have any questions). </p>
+
+<p>View the full changelog <a href="https://github.com/18F/web-design-standards/compare/v0.9.5...v0.9.6">here</a>.</p>
+
+<p><hr></p>
+<h2 id="version-095">Version 0.9.5</h2>
+<p class="site-subheading">July 07, 2016</p>
+
+<h3 id="v0.9.5-fixed">Fixed</h3>
+
+<ul>
+<li>Links in <code>CONTRIBUTING.md</code> are broken <a href="https://github.com/18F/web-design-standards/issues/1270">#1270</a></li>
+<li>Sass build errors <a href="https://github.com/18F/web-design-standards/issues/1208">#1208</a> &amp; <a href="https://github.com/18F/web-design-standards/issues/1264">1264</a></li>
+<li>Fix deploy path <a href="https://github.com/18F/web-design-standards/pull/1269">#1269</a></li>
+<li>&ldquo;Downloadable Zip File&rdquo; button doesn&rsquo;t follow standards <a href="https://github.com/18F/web-design-standards/issues/1291">#1291</a></li>
+<li>Prevent example search bars from reloading page when clicked <a href="https://github.com/18F/web-design-standards/issues/595">#595</a></li>
+<li>Not all accordions work without JavaScript <a href="https://github.com/18F/web-design-standards/issues/1245">#1245</a></li>
+<li>Fix remaining lint issues <a href="https://github.com/18F/web-design-standards/issues/1190">#1190</a></li>
+<li>Input width in error state</li>
+<li>Inconsistent text line breaks in footer in IE 11 <a href="https://github.com/18F/web-design-standards/issues/460">#460</a></li>
+<li>Removed <code>max-width</code> on forms <a href="https://github.com/18F/web-design-standards/issues/327">#327</a></li>
+<li>Date input error width <a href="https://github.com/18F/web-design-standards/issues/1094">#1094</a></li>
+<li>Slim footer contact links incorrectly aligned in IE 10 <a href="https://github.com/18F/web-design-standards/issues/540">#540</a></li>
+<li>&ldquo;Return to top&rdquo; link in footers <a href="https://github.com/18F/web-design-standards/issues/990">#990</a></li>
+<li>Social media icons too small to respond consistently when tapped (multiple devices) <a href="https://github.com/18F/web-design-standards/issues/346">#346</a></li>
+</ul>
+
+<h3 id="v0.9.5-changed">Changed</h3>
+
+<ul>
+<li>Addition of checklist of steps to take prior to submitting a pull request </li>
+<li>Removed visual regression testing (trial expired)</li>
+<li>Addition of user testing environment https://github.com/18F/web-design-standards/issues/1249</li>
+<li>Create heading margin class https://github.com/18F/web-design-standards/issues/503</li>
+<li>Installed autopilot for zero-downtime-push</li>
+<li>Split up UI Components structure into individual files</li>
+<li>Add icons to external links https://github.com/18F/web-design-standards/issues/575</li>
+<li>Updated link examples and removed non-underlined text links  https://github.com/18F/web-design-standards/issues/812</li>
+</ul>
+
+<h3 id="v0.9.5-a-hrefhttpsgithubcom18fweb-design-standards-assetsvisual-design-assetsa"><a href="https://github.com/18F/web-design-standards-assets">Visual Design Assets</a></h3>
+
+<p>The links below reference the visual design assets that have been affected by this current release. To view these assets, check out the official <a href="https://github.com/18F/web-design-standards-assets">Github repo</a>.
+- Added grid templates for desktop, tablet, and mobile (AI and Sketch)
+- Consolidated color palette, typography, and sticker sheet files (AI)
+- Added typography and color swatches to the sticker sheet file (Sketch)
+- Added Sketch Palette file for installing color palette in Sketch
+- Corrected errors in text sizes and styles (AI and Sketch)
+- Created separate paths for all form fields (Sketch)
+- Indented list style
+- Removed style for links without surrounding text</p>
+
+<h3 id="v0.9.5-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/fureigh">@fureigh</a></li>
+<li><a href="https://github.com/joshbruce">@joshbruce</a></li>
+<li><a href="https://github.com/kamxhmartin">@kamxhmartin</a></li>
+<li>Lauren Markzon</li>
+<li><a href="https://github.com/nicoleslaw">@nicoleslaw</a></li>
+<li><a href="https://github.com/stephmarx">@stephmarx</a></li>
+<li><a href="https://github.com/terminaltraces">@terminaltraces</a> </li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.4...v0.9.5">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-094">Version 0.9.4</h2>
+<p class="site-subheading">July 21, 2016</p>
+
+<h3 id="v0.9.4-backwards-incompatible-changes">Backwards incompatible changes</h3>
+
+<p>In this release, there is a specific backwards incompatible change to the accordion component. Users will need to update their HTML to remove the <code>aria-expanded=&quot;false&quot;</code> and <code>aria-hidden=&quot;true&quot;</code> attributes from accordion panels that aren&rsquo;t expanded by default. This makes the content of these panels accessible without JS. This change was introduced <a href="https://github.com/18F/web-design-standards/issues/1122">here</a>.</p>
+
+<h3 id="v0.9.4-fixed">Fixed</h3>
+
+<ul>
+<li>Navigation fix for smaller screens <a href="https://github.com/18F/web-design-standards/issues/1223">#1223</a></li>
+</ul>
+
+<h3 id="v0.9.4-changed">Changed</h3>
+
+<ul>
+<li>Added Screener visual regression testing (trial)</li>
+<li>Add auto deployment to release space for QA testing on releases</li>
+<li>Addition of design contribution guidelines</li>
+<li>Update GA tracking code</li>
+<li>Update a11y docs on form templates and controls <a href="https://github.com/18F/web-design-standards/issues/792">#792</a> </li>
+<li>Line breaks on typography page <a href="https://github.com/18F/web-design-standards/issues/615">#615</a> </li>
+<li>Make accordion content accessible without JavaScript <a href="https://github.com/18F/web-design-standards/issues/1122">#1122</a></li>
+<li>Documentation pages have duplicate ids <a href="https://github.com/18F/web-design-standards/issues/1225">#1225</a></li>
+</ul>
+
+<h3 id="v0.9.4-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/nickbristow">@nickbristow</a></li>
+<li><a href="https://github.com/el-mapache">@el-mapache</a> </li>
+<li><a href="https://github.com/shawnbot">@shawnbot</a></li>
+<li><a href="https://github.com/hbillings">@hbillings</a> </li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.3...v0.9.4">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-093">Version 0.9.3</h2>
+<p class="site-subheading">June 01, 2016</p>
+
+<h3 id="v0.9.3-backwards-incompatible-changes">Backwards incompatible changes</h3>
+
+<p>In this release, there are several backwards incompatible changes. These changes were implemented to help in the ease of workflow, open source contributions and overall manageability of the Draft U.S. Web Design Standards repo. 
+- Removal of <code>dist</code> directory from the main repository file/folder structure, refs https://github.com/18F/web-design-standards/issues/1148
+- Changing <code>18f-pages</code> branch to <code>master</code> and <code>18-pages-staging</code> branch to <code>staging</code></p>
+
+<h3 id="v0.9.3-fixed">Fixed</h3>
+
+<ul>
+<li>Image optimization</li>
+<li>JS and SCSS linting errors</li>
+<li>Radio button and table alignment</li>
+<li>Input box height issues in Firefox <a href="https://github.com/18F/web-design-standards/issues/957">#957</a></li>
+<li>Adding unit tests <a href="https://github.com/18F/web-design-standards/issues/1156">#1156</a></li>
+<li>jQuery reference errors, refs <a href="https://github.com/18F/web-design-standards/issues/1171">#1171</a></li>
+<li>Fixing broken images on the website <a href="https://github.com/18F/web-design-standards/issues/1205">#1205</a></li>
+<li>Fix accessibility issues on accordion component <a href="https://github.com/18F/web-design-standards/issues/1181">#1181</a> and <a href="https://github.com/18F/web-design-standards/issues/1120">#1120</a></li>
+<li>Fix document outline in the footer component <a href="https://github.com/18F/web-design-standards/issues/794">#794</a></li>
+</ul>
+
+<h3 id="v0.9.3-changed">Changed</h3>
+
+<ul>
+<li>Adding issue and pull request templates</li>
+<li>Addition of <code>gulp-autoprefixer</code> to gulp workflow</li>
+<li>Moving to Circle CI and removing Travis CI</li>
+<li>Fixing jQuery and code preview errors <a href="https://github.com/18F/web-design-standards/issues/1193">#1193</a></li>
+<li>Checkbox and radio inputs from not appearing on iOS Voiceover [#1182](https://github.com/18F/web-design-standards/issues/1182]</li>
+<li>Making disabled button non-clickable on IE 10 <a href="https://github.com/18F/web-design-standards/issues/493">#493</a></li>
+<li>Adding white background to tables <a href="https://github.com/18F/web-design-standards/issues/353">#353</a></li>
+</ul>
+
+<h3 id="v0.9.3-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:</p>
+
+<ul>
+<li><a href="https://github.com/joshbruce">@joshbruce</a></li>
+<li><a href="https://github.com/PeterDaveHello">@PeterDaveHello</a></li>
+<li><a href="https://github.com/burgwyn">@burgwyn</a></li>
+<li><a href="https://github.com/cew821">@cew821</a></li>
+<li><a href="https://github.com/el-mapache">@el-mapache</a></li>
+<li><a href="https://github.com/tysongach">@tysongach</a></li>
+<li><a href="https://github.com/madmanlear">@madmanlear</a></li>
+</ul>
+
+<p>And thank you to everyone for your comments and feedback!</p>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.2...v0.9.3">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-092">Version 0.9.2</h2>
+<p class="site-subheading">May 17, 2016</p>
+
+<h3 id="v0.9.2-fixed">Fixed</h3>
+
+<ul>
+<li>Broken JS references in input field toggle components JS.</li>
+<li>Broken jQuery reference in accordion component JS.</li>
+<li>Added error border style to <code>textarea</code>s and <code>select</code>s, <a href="https://github.com/18F/web-design-standards/issues/">#1103</a>.</li>
+<li>Mismatched variables between <code>defaults</code> and <code>variables</code> files.</li>
+<li>Incorrect button sizes at different screen sizes, <a href="https://github.com/18F/web-design-standards/issues/463">#463</a>.</li>
+<li>Typo in README, <a href="https://github.com/18F/web-design-standards/issues/1090">#1090</a></li>
+</ul>
+
+<h3 id="v0.9.2-changed">Changed</h3>
+
+<ul>
+<li>Changed documentation to reference new URL, which is standards.usa.gov.</li>
+<li>Added Circle CI configuration for continuous deployment to cloud.gov.</li>
+<li>Changed radio/checkbox HTML example to be a better representation of the name attribute, <a href="https://github.com/18F/web-design-standards/issues/1107">#1107</a></li>
+<li>Removed type from <code>select</code> elements, <a href="https://github.com/18F/web-design-standards/issues/1109">#1109</a>.</li>
+</ul>
+
+<h3 id="v0.9.2-contributors">Contributors</h3>
+
+<ul>
+<li><a href="https://github.com/chinaowl">@chinaowl</a></li>
+<li><a href="https://github.com/joshbruce">@joshbruce</a></li>
+<li><a href="https://github.com/eeeschwartz">@eeeschwartz</a></li>
+</ul>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.1...v0.9.2">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-091">Version 0.9.1</h2>
+<p class="site-subheading">March 29, 2016</p>
+
+<h3 id="v0.9.1-fixed">Fixed</h3>
+
+<ul>
+<li>Accordion component now works when there are other classes on the main <code>usa-accordion</code> element. <a href="https://github.com/18F/web-design-standards/issues/1083">#1083</a></li>
+</ul>
+
+<h3 id="v0.9.1-changed">Changed</h3>
+
+<ul>
+<li>Use Bourbon&rsquo;s font stack variables</li>
+<li>Remove <code>.ruby-version</code></li>
+<li>Rename <code>18f-pages</code> yaml file to <code>.18f-pages.yml</code></li>
+<li>Update README documentation around files and usage</li>
+<li>Update gulp workflow for watching changes during development</li>
+<li>Add copy-vendor-sass as a <code>pre</code> task where needed</li>
+<li>Remove google-fonts.css legacy file from documentation site</li>
+<li>Add Windows support for building the project</li>
+</ul>
+
+<p><a href="https://github.com/18F/web-design-standards/compare/v0.9.0...v0.9.1">Full Changelog</a></p>
+
+<p><hr></p>
+<h2 id="version-090">Version 0.9.0</h2>
+<p class="site-subheading">March 14, 2016</p>
+
+<p>This version introduces several backwards-incompatibility changes that will
+affect usage of the Standards. Here are a few things to note as you upgrade to
+version 0.9.0.</p>
+
+<h3 id="v0.9.0-deprecatedbackwards-incompatible">Deprecated/backwards incompatible</h3>
+
+<p>The Draft U.S. Web Design Standards website is no longer hosted at the root
+level of the directory — it&rsquo;s now hosted from /docs. The zip file for the <code>uswds</code>
+is no longer located in the Standards repository. <a href="https://github.com/18F/web-design-standards/releases/download/v0.9.0/uswds-0.9.0.zip">You can now find it on our
+GitHub releases page</a>.</p>
+
+<h3 id="v0.9.0-whats-new">What’s new?</h3><h4 id="v0.9.0-repository-folder-structure">Repository folder structure</h4>
+<p>This version of the Standards has an updated folder structure, which includes
+several new areas that assist automation of the workflow.</p>
+
+<p>This updated folder structure features <code>/config</code>, <code>/src</code>, <code>/docs</code>, and <code>/dist</code> 
+directories at the root level of the repository. Here’s an overview of the items
+you’ll find in each of these directories:</p>
+<h5 id="v0.9.0-codedistcode"><code>/dist</code></h5>
+<p>This folder contains the compiled CSS and bundled JavaScript files, along
+with image and font files that are distributed to our users. These are the only
+files you need to start using the Standards in your own project.</p>
+<h5 id="v0.9.0-codeconfigcode"><code>/config</code></h5>
+<p>This folder contains a gulp folder with all the configurations necessary for
+running various gulp tasks if you want to build the Standards yourself.</p>
+<h5 id="v0.9.0-codesrccode"><code>/src</code></h5>
+<p>This folder contains all of the source files you’ll need to use before you
+compile the Standards that are used prior to compilation of the Standards. None
+of these files are minified, by any means, and they’re what you should use when
+you make contributions to the source files themselves.</p>
+<h5 id="v0.9.0-codedocscode"><code>/docs</code></h5>
+<p>This folder contains the Jekyll site that generates the Standards website.</p>
+<h4 id="v0.9.0-building-the-entire-standards-website-and-download">Building the entire Standards website and download</h4>
+<p>If you’d like to move beyond working with the code and components included in
+our ZIP file and work with the files used to generate the Standards website,
+you can build out everything using gulp or npm.</p>
+<h5 id="v0.9.0-gulp-workflow">gulp workflow</h5>
+<p>The Draft Web Design Standards <code>uswds</code> package (the ZIP download and the files
+needed to use the Standards on your project) and style guide website (our public
+site that displays examples of each component and the HTML code) are built using
+gulp. To use gulp, first make sure you&rsquo;ve installed it on your machine globally.
+For more information on installing gulp, <a href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md">check out this document</a>.
+Check out our <code>CONTRIBUTING</code> file to learn more about how to use
+the new gulp workflow.</p>
+<h5 id="v0.9.0-npm-installation">npm installation</h5>
+<p><a href="https://www.npmjs.com/package/uswds">You can now install the Draft U.S. Web Design Standards using npm</a>.
+Check out our <code>README</code> file to learn more about how to install
+using this new method and how to implement the Standards into in your project.</p>
+<h3 id="v0.9.0-kudos">Kudos</h3>
+
+<p>We&rsquo;d like to thank all the contributors who worked on our current release! We
+appreciate your service and all the time you spent making the Standards even
+better. Big kudos to the following folks:
+- <a href="https://github.com/burgwyn">@burgwyn</a>
+- <a href="https://github.com/pra85">@pra85</a>
+- <a href="https://github.com/lboonebah">@lboonebah</a>
+- <a href="https://github.com/skonzem">@skonzem</a>
+- <a href="https://github.com/tysongach">@tysongach</a>
+- <a href="https://github.com/ismamz">@ismamz</a>
+- <a href="https://github.com/nickjs">@nickjs</a></p>
+
+<p>And thank you to everyone for your comments and feedback.</p>
+
+<p><a href="https://github.com/18f/web-design-standards/compare/d3bbebc...v0.9.0">Full Changelog</a></p>
+
+<p><hr></p>
+
+  </div>
+
+</main>
+
+
+<footer class="usa-footer usa-footer-medium site" role="contentinfo">
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid">
+      <div class="usa-width-one-fourth">
+        <img class="footer-main-img" src="/img/home/homepage_illustrations_best_easiest_2x.png" alt="">
+      </div>
+      <div class="usa-width-three-fourths footer-content">
+        <h3>Become part of the community</h3>
+        <p>The  U.S. Forest Service Web Design Standards has grown into a blossoming, open source community of government engineers, content specialists, and designers. We currently support dozens of agencies and more than 100 sites, which is fueled through an active community of contributors both in and out of government.</p>
+        <div class="usa-grid-full footer-contact-links">
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-question.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Running into an issue?</h4>
+                <a href="https://github.com/18F/fs-fork-uswds/issues/new">
+                  Ask questions on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-slack.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Engage with the community</h4>
+                <a href="https://chat.18f.gov/">
+                  Join our Slack channel
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="usa-width-one-third">
+            <div class="usa-media_block">
+              <img class="usa-media_block-img" src="/img/home/icon-envelope.svg" alt="">
+              <div class="usa-media_block-body">
+                <h4>Reach the team</h4>
+                <a href="mailto:uswds@gsa.gov">
+                  Send us an email
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-section-bottom">
+    <div class="usa-grid">
+      <div class="logo-links">
+        <a href="http://www.gsa.gov/">
+          <img src="/img/logo-gsa.png" alt="GSA">
+        </a>
+      </div>
+      <p>The  U.S. Forest Service Web Design Standards is a project of GSA’s <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Service</a>, maintained by the Office of Products and Programs.</p>
+      <p>This website is hosted on <a href="https://federalist.fr.cloud.gov">Federalist</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+    	<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+	<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-48605964-43', 'gsa.gov');
+
+	  // anonymize user IPs (chops off the last IP triplet)
+	  ga('set', 'anonymizeIp', true);
+
+	  // forces SSL even if the page were somehow loaded over http://
+	  ga('set', 'forceSSL', true);
+
+	  ga('send', 'pageview');
+	</script>
+
+<script src="/assets/js/styleguide.js"></script>
+
+<script src="/assets/js/vendor/uswds.min.js"></script>
+
+  </body>
+</html>
