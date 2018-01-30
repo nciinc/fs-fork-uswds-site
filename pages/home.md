@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: landing
-title: "U.S. Web Design System: A design system for the federal government"
+title: " U.S. Forest Service Web Design Standards: A design system for the federal government"
 class: home
 hero:
   callout: A design system for the federal government
@@ -9,7 +9,7 @@ hero:
 graphic_list:
   list_item:
     - topic: Getting started
-      description: Learn how to get started using the U.S. Web Design System for your project, regardless of your technical stack.
+      description: Learn how to get started using the  U.S. Forest Service Web Design Standards for your project, regardless of your technical stack.
       image:
         src: img/home/get-started.svg
         alt:
@@ -25,7 +25,7 @@ graphic_list:
         text: Browse the components
         url: components
     - topic: What’s new
-      description: Keep up to date with the current news and product development updates for the U.S. Web Design System.
+      description: Keep up to date with the current news and product development updates for the  U.S. Forest Service Web Design Standards.
       image:
         src: img/home/new.svg
         alt:
@@ -45,6 +45,7 @@ graphic_list:
 ## Services
 
 {% capture assessment %}
+
 ### Assessment
 
 We work with you to assess your current system and determine the most cost-efficient and effective path forward.
@@ -61,7 +62,7 @@ We work with you to assess your current system and determine the most cost-effic
         <li>We’ll ensure your Design System implementation is in compliance with the official web policy guidance from OMB and your agency.</li>
         <li>We’ll determine any gaps in skill sets, equipment, design, and code quality needed for successful implementation of the Design System.</li>
         <li>Your team will leave better prepared to adopt private-sector best practices and continue to create successful digital services.</li>
-      </ul> 
+      </ul>
     </div>
   </li>
 </ul>
@@ -73,6 +74,7 @@ We work with you to assess your current system and determine the most cost-effic
 {% endcapture %}
 
 {% capture customization %}
+
 ### Customization
 
 Develop and implement a custom look and feel for your site or application-specific needs.
@@ -90,7 +92,7 @@ Develop and implement a custom look and feel for your site or application-specif
         <li>Your digital services will stay in compliance with the official web policy guidance from OMB.</li>
         <li>Fully implementing the Design System brings a range of best practices to your digital services.</li>
         <li>This investment will reduce the cost and time to design and develop future compliant digital services.</li>
-      </ul> 
+      </ul>
     </div>
   </li>
 </ul>

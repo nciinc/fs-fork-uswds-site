@@ -14,11 +14,12 @@ subnav:
 ---
 
 Below is our product roadmap: a long-term plan of the goals, features,
-and long-term direction of the U.S. Web Design System. We update this
+and long-term direction of the U.S. Forest Service Web Design Standards. We update this
 every few months with the status of our progress, as well as add new
 high-level future requests and ideas. You can also <a href="https://github.com/uswds/uswds/milestone/52" class="">view our product roadmap goals on GitHub</a>.
 
 {% for milestone in site.data.milestones %}
+
 <section>
   <h2 id="{{ milestone.id }}">{{ milestone.title }}</h2>
   <ul class="product-roadmap-list">

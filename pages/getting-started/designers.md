@@ -12,14 +12,14 @@ As a complement to this visual style guidance, we strongly recommend you use [18
 
 ## Design resources
 
-The site contains HTML mockups of common UI components designed to follow the U.S. Web Design System’s visual style guide. To view the specs of each design live on this website (padding, margins, stroke weight, line-height, and so on), use your browser’s developer tools.
+The site contains HTML mockups of common UI components designed to follow the  U.S. Forest Service Web Design Standards’s visual style guide. To view the specs of each design live on this website (padding, margins, stroke weight, line-height, and so on), use your browser’s developer tools.
 
 All of these designs are also available in various file formats, which are available for download:
 
 {% include download-buttons-design.html %}
 
 ### Retired design files
-The following design files are no longer being maintained by the U.S. Web Design System team as of version 1.0.0. The most recent versions remain available for download at the links below. While the Design System team is no longer maintaining these files, we'd love to hear from any teams that are using these files and adding new components when new versions of the Design System is released. [Send us an email](mailto:@uswds@gsa.gov).
+The following design files are no longer being maintained by the  U.S. Forest Service Web Design Standards team as of version 1.0.0. The most recent versions remain available for download at the links below. While the Design System team is no longer maintaining these files, we'd love to hear from any teams that are using these files and adding new components when new versions of the Design System is released. [Send us an email](mailto:@uswds@gsa.gov).
 
 {% include download-buttons-design-retired.html %}
 

@@ -3,7 +3,7 @@ permalink: /whats-new/
 layout: styleguide
 title: What’s new
 category: What’s new
-lead: Here you can find the latest news and information about the U.S. Web Design System. Read our latest release notes, learn about the Design System’s impact in the government, and learn how we conduct user research to continuously improve our product and process.
+lead: Here you can find the latest news and information about the  U.S. Forest Service Web Design Standards. Read our latest release notes, learn about the Design System’s impact in the government, and learn how we conduct user research to continuously improve our product and process.
 columns:
   - title: New users
     source: New Users
@@ -16,6 +16,7 @@ redirect_from:
 ---
 
 {% capture blog %}
+
 ## Latest blog posts
 
 You can read more about the Design System on the 18F blog, where we cover the
@@ -26,9 +27,10 @@ government who have successfully implemented the Design System at their agencies
 {% endcapture %}
 
 {% capture in_wild %}
+
 ## Design System in the wild
 
-Interested in seeing who else is using the U.S. Web Design System? We
+Interested in seeing who else is using the U.S. Forest Service Web Design Standards? We
 maintain a list of sites in our GitHub repo. Feel free to
 [open an issue](https://github.com/uswds/uswds-assets/issues/new)
 or [email us](mailto:uswds@gsa.gov) if you’d like to add your
@@ -50,7 +52,7 @@ project to our list.
 
 By accessing the Google Analytics data gathered for [analytics.usa.gov](https://analytics.usa.gov),
 we have aggregated a few data points to approximate how many users of federal
-websites have “experienced” the U.S. Web Design System. We will update these
+websites have “experienced” the U.S. Forest Service Web Design Standards. We will update these
 numbers quarterly.
 
 <table>

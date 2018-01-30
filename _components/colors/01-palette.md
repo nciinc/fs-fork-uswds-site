@@ -204,82 +204,22 @@ order: 01
 
 <div class="usa-grid-full usa-color-row">
   <div class="color-big">
-    <div class="usa-color-short usa-color-gold">
+    <div class="usa-color-short usa-color-tan">
     </div>
-      <p class="usa-color-hex">#fdb81e</p>
-      <p class="usa-color-name">$color-gold</p>
+      <p class="usa-color-hex">#eeece5</p>
+      <p class="usa-color-name">$fs-tan</p>
   </div>
   <div class="color-small">
-    <div class="usa-color-short usa-color-gold-light">
+    <div class="usa-color-short usa-color-tan-dark">
     </div>
-      <p class="usa-color-hex">#f9c642</p>
-      <p class="usa-color-name">$color-gold-light</p>
+      <p class="usa-color-hex">#e2dfd3</p>
+      <p class="usa-color-name">$fs-tan-dark</p>
   </div>
   <div class="color-small">
-    <div class="usa-color-short usa-color-gold-lighter">
+    <div class="usa-color-short usa-color-tan-darker">
     </div>
-      <p class="usa-color-hex">#fad980</p>
-      <p class="usa-color-name">$color-gold-lighter</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-gold-lightest usa-end-row">
-    </div>
-      <p class="usa-color-hex">#fff1d2</p>
-      <p class="usa-color-name">$color-gold-lightest</p>
-  </div>
-</div>
-
-<div class="usa-grid-full usa-color-row">
-  <div class="color-big">
-    <div class="usa-color-short usa-color-green">
-    </div>
-      <p class="usa-color-hex">#2e8540</p>
-      <p class="usa-color-name">$color-green</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-green-light">
-    </div>
-      <p class="usa-color-hex">#4aa564</p>
-      <p class="usa-color-name">$color-green-light</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-green-lighter">
-    </div>
-      <p class="usa-color-hex">#94bfa2</p>
-      <p class="usa-color-name">$color-green-lighter</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-green-lightest usa-end-row">
-    </div>
-      <p class="usa-color-hex">#e7f4e4</p>
-      <p class="usa-color-name">$color-green-lightest</p>
-  </div>
-</div>
-
-<div class="usa-grid-full usa-color-row">
-  <div class="color-big">
-    <div class="usa-color-short usa-color-cool-blue">
-    </div>
-      <p class="usa-color-hex">#205493</p>
-      <p class="usa-color-name">$color-cool-blue</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-cool-blue-light">
-    </div>
-      <p class="usa-color-hex">#4773aa</p>
-      <p class="usa-color-name">$color-cool-blue-light</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-cool-blue-lighter">
-    </div>
-      <p class="usa-color-hex">#8ba6ca</p>
-      <p class="usa-color-name">$color-cool-blue-lighter</p>
-  </div>
-  <div class="color-small">
-    <div class="usa-color-short usa-color-cool-blue-lightest">
-    </div>
-      <p class="usa-color-hex">#dce4ef</p>
-      <p class="usa-color-name">$color-cool-blue-lightest</p>
+      <p class="usa-color-hex">#d6d2c1</p>
+      <p class="usa-color-name">$fs-tan-darker</p>
   </div>
 </div>
 
@@ -287,18 +227,9 @@ order: 01
 
 <div class="usa-grid-full usa-color-row">
   <div class="color-big">
-    <div class="usa-color-short usa-color-focus">
+    <div class="usa-color-short usa-color-light-blue">
     </div>
     <p class="usa-color-hex">#3e94cf</p>
-    <p class="usa-color-name">$color-focus</p>
-  </div>
-</div>
-
-<div class="usa-grid-full usa-color-row">
-  <div class="color-big">
-    <div class="usa-color-short usa-color-visited">
-    </div>
-    <p class="usa-color-hex">#4c2c92</p>
-    <p class="usa-color-name">$color-visited</p>
+    <p class="usa-color-name">$fs-blue-light</p>
   </div>
 </div>

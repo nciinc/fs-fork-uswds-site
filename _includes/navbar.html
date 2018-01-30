@@ -3,16 +3,22 @@
   {% include banner.html %}
   <div class="usa-navbar site-header-navbar">
     <button class="usa-menu-btn">Menu</button>
-    <div class="usa-logo site-logo" id="logo">
-      <em class="usa-logo-text">
-        <a href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          {{ site.title }}
+      <div class="usa-logo" id="logo">
+      <div class="fs-branding">
+        <a href="//usda.gov">
+          <img alt="United States Department of Agriculture" class="usda-logo" role="img" src="{{ site.baseurl }}/assets/img/us-forest-service/usda.svg">
         </a>
-      </em>
+        <a id="us-forest-service-logo" routerlink="/" href="/"><img alt="US Forest Service" class="fs-logo" role="img" src="{{ site.baseurl }}/assets/img/us-forest-service/usfslogo.svg" width="50">
+          <div class="fs-name-slogan">
+            <span class="fs-name">U.S. FOREST SERVICE</span>
+            <span class="fs-slogan">Web Design Standards</span>
+          </div>
+        </a>
+      </div>
     </div>
     {% include download-buttons.html %}
   </div>
-</header>  
+</header>
 <nav class="site-nav-secondary sticky">
   <ul>
     {%

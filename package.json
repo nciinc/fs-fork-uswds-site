@@ -1,7 +1,7 @@
 {
   "name": "uswds-site",
   "version": "1.3.0",
-  "description": "Website and documentation on using the U.S. Web Design System.",
+  "description": "Website and documentation on using the  U.S. Forest Service Web Design Standards.",
   "scripts": {
     "federalist": "gulp build",
     "build": "gulp build && bundle exec jekyll build",
@@ -20,31 +20,17 @@
     "watch": "nswatch"
   },
   "watch": {
-    "./css/**/*.scss": [
-      "build-css"
-    ],
-    "./img": [
-      "build-img"
-    ],
-    "./js/**/*.js": [
-      "build-js"
-    ],
-    "./node_modules/uswds/src/stylesheets": [
-      "build-css"
-    ],
-    "./node_modules/uswds/src/fonts": [
-      "build-fonts"
-    ],
-    "./node_modules/uswds/src/img": [
-      "build-img"
-    ],
-    "./node_modules/uswds/src/js": [
-      "build-js"
-    ]
+    "./css/**/*.scss": ["build-css"],
+    "./img": ["build-img"],
+    "./js/**/*.js": ["build-js"],
+    "./node_modules/uswds/src/stylesheets": ["build-css"],
+    "./node_modules/uswds/src/fonts": ["build-fonts"],
+    "./node_modules/uswds/src/img": ["build-img"],
+    "./node_modules/uswds/src/js": ["build-js"]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uswds/uswds-site.git"
+    "url": "git+https://github.com/nciinc/fs-fork-uswds-site.git"
   },
   "author": "18F",
   "contributors": [
@@ -64,9 +50,9 @@
   ],
   "license": "SEE LICENSE in LICENSE.md",
   "bugs": {
-    "url": "https://github.com/uswds/uswds-site/issues"
+    "url": "https://github.com/nciinc/fs-fork-uswds-site/issues"
   },
-  "homepage": "https://github.com/uswds/uswds-site#readme",
+  "homepage": "https://github.com/nciinc/fs-fork-uswds-site#readme",
   "dependencies": {
     "axe-core": "^2.6.1",
     "browserify": "^13.0.0",
