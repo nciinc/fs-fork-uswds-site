@@ -35,10 +35,10 @@ jekyll_get:
 repos:
 - name: U.S. Forest Service Web Design Standards
   description: Main repository for the U.S. Forest Service Web Design Standards package
-  url: https://github.com/18F/fs-fork-uswds
+  url: https://github.com/nciinc/fs-fork-uswds
 - name: U.S. Forest Service Web Design Standards Documentation
   description: Documentation for the  U.S. Forest Service Web Design Standards
-  url: https://github.com/18F/fs-fork-uswds-site
+  url: https://github.com/nciinc/fs-fork-uswds-site
 - name:  U.S. Forest Service Web Design Standards Assets
   description:  U.S. Forest Service Web Design Standards visual design assets
   url: https://github.com/uswds/uswds-assets
