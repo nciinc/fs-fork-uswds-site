@@ -3941,28 +3941,37 @@ body {
 .display-none {
   display: none; }
 
+main .usa-accordion li,
+#main-content .usa-accordion li,
+.main-content .usa-accordion li {
+  background: transparent; }
+main .usa-accordion button.usa-accordion-button,
+#main-content .usa-accordion button.usa-accordion-button,
+.main-content .usa-accordion button.usa-accordion-button {
+  background-color: #e2dfd3;
+  border: 1px solid #212121; }
+  main .usa-accordion button.usa-accordion-button:hover,
+  #main-content .usa-accordion button.usa-accordion-button:hover,
+  .main-content .usa-accordion button.usa-accordion-button:hover {
+    background-color: #d6d2c1;
+    border: 1px solid #212121; }
 main .usa-accordion .usa-accordion-content,
-main .usa-accordion-bordered .usa-accordion-content,
 #main-content .usa-accordion .usa-accordion-content,
+.main-content .usa-accordion .usa-accordion-content {
+  background-color: transparent; }
+main .usa-accordion-bordered .usa-accordion-content,
 #main-content .usa-accordion-bordered .usa-accordion-content,
-.main-content .usa-accordion .usa-accordion-content,
 .main-content .usa-accordion-bordered .usa-accordion-content {
   border-bottom: 1px solid #212121;
   border-left: 1px solid #212121;
   border-right: 1px solid #212121; }
-main .usa-accordion button.usa-accordion-button,
 main .usa-accordion-bordered button.usa-accordion-button,
-#main-content .usa-accordion button.usa-accordion-button,
 #main-content .usa-accordion-bordered button.usa-accordion-button,
-.main-content .usa-accordion button.usa-accordion-button,
 .main-content .usa-accordion-bordered button.usa-accordion-button {
   background-color: #e2dfd3;
   border: 1px solid #212121; }
-  main .usa-accordion button.usa-accordion-button:hover,
   main .usa-accordion-bordered button.usa-accordion-button:hover,
-  #main-content .usa-accordion button.usa-accordion-button:hover,
   #main-content .usa-accordion-bordered button.usa-accordion-button:hover,
-  .main-content .usa-accordion button.usa-accordion-button:hover,
   .main-content .usa-accordion-bordered button.usa-accordion-button:hover {
     background-color: #d6d2c1;
     border: 1px solid #212121; }
