@@ -48,10 +48,10 @@ graphic_list:
 
 Templates for a landing page and a documentation page are built from some of the components of the U.S. Forest Service Web Design Standards.
 
-<a class="usa-button" href="/page-templates">View templates</a>
+<a class="usa-button" href="{{ site.baseurl }}/page-templates">View templates</a>
 
 ## UI Components
 
 Our system of UI components are designed to set a new bar for simplicity and consistency across government services, while providing you with plug-and-play design and code.
 
-<a class="usa-button" href="/components">View UI components</a>
+<a class="usa-button" href="{{ site.baseurl }}/components">View UI components</a>
