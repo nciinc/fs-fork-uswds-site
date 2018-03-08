@@ -4584,6 +4584,16 @@ select {
 .usa-nav-secondary .usa-header-search-button {
   background-image: url(/assets/img/search-alt.svg); }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.centered-container {
+  text-align: center; }
+  .centered-container p {
+    max-width: 100%; }
+
 .spinner-container {
   background: #076727;
   padding: 9px;
@@ -4593,6 +4603,16 @@ select {
   height: 45px; }
 
 .spinner {
+  border-width: 4px;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0px;
+  border-radius: 100%;
+  border-style: solid;
+  animation: spin 0.8s linear infinite;
   border-color: #eeece5 rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0.1) !important;
   background-color: #076727 !important; }
 
