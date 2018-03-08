@@ -222,14 +222,3 @@ order: 01
       <p class="usa-color-name">$fs-tan-darker</p>
   </div>
 </div>
-
-<h4 class="usa-heading">Special state colors</h4>
-
-<div class="usa-grid-full usa-color-row">
-  <div class="color-big">
-    <div class="usa-color-short usa-color-light-blue">
-    </div>
-    <p class="usa-color-hex">#3e94cf</p>
-    <p class="usa-color-name">$fs-blue-light</p>
-  </div>
-</div>
