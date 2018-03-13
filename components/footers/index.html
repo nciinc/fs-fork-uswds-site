@@ -61,9 +61,9 @@
 <link rel="stylesheet" href="/fs-fork-uswds-site/css/styleguide.css">
 
   </head>
-  <body class="page-footers layout-styleguide ">
+  <body class="page-footers layout-styleguide  forest-service">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-<header class="usa-header site-header" role="banner">
+<header class="usa-header usa-header-extended site-header" role="banner">
   <!-- Gov banner BEGIN -->
 <div class="usa-banner">
   <div class="usa-accordion">
@@ -127,10 +127,10 @@
 </ul>
 
   </div>
-</header>
-<nav class="site-nav-secondary sticky">
-  <ul>
-    
+  <nav class="usa-nav site-nav-secondary sticky">
+    <div class="usa-nav-inner">
+      <ul>
+        
   
   <li>
     
@@ -162,17 +162,18 @@
   </li>
 
 
-  </ul>
-</nav>
-<div class="usa-overlay"></div>
+      </ul>
+    </div>
+  </nav>
+  <div class="usa-overlay"></div>
 
-<nav role="navigation" class="usa-nav sidenav-mobile">
-  <div class="usa-nav-inner">
-    <button class="usa-nav-close">
-      <img src="/fs-fork-uswds-site/assets/img/close.svg" alt="close">
-    </button>
-    <ul class="usa-sidenav-list usa-accordion">
-      
+  <nav role="navigation" class="usa-nav sidenav-mobile">
+    <div class="usa-nav-inner">
+      <button class="usa-nav-close">
+        <img src="/fs-fork-uswds-site/assets/img/close.svg" alt="close">
+      </button>
+      <ul class="usa-sidenav-list usa-accordion">
+        
   <li>
   
   
@@ -472,8 +473,8 @@
   </li>
 
 
-    </ul>
-    <ul class="usa-button-list usa-unstyled-list">
+      </ul>
+      <ul class="usa-button-list usa-unstyled-list">
   <li>
     <a class="usa-button usa-button-outline-inverse" href="https://github.com/nciinc/fs-fork-uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
       View on GitHub
@@ -481,10 +482,12 @@
   </li>
 </ul>
 
-  </div>
-</nav>
+    </div>
+  </nav>
+</header>
 
 
+<div class="usa-grid">
 <aside class="sidenav sticky">
   
   
@@ -1017,7 +1020,16 @@
 
 
 
+<h6 class="usa-heading-alt" id="slim-footer">Sticky footer</h6>
+<p>Sticky footer should be displayed fixed to the bottom of the viewport.</p>
+<div class="fs-footer-sticky trees-footer-sticky">
+  <span>Sticky footer text</span>
+  <span>
+    <button class="usa-button-primary-alt">Button</button>
+  </span>
 </div>
+
+<p></div></p>
 
 <div class="usa-accordion-bordered usa-code-sample">
   
@@ -1241,6 +1253,15 @@
 
 
 
+<span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"usa-heading-alt"</span> <span class="na">id=</span><span class="s">"slim-footer"</span><span class="nt">&gt;</span>Sticky footer<span class="nt">&lt;/h6&gt;</span>
+<span class="nt">&lt;p&gt;</span>Sticky footer should be displayed fixed to the bottom of the viewport.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fs-footer-sticky trees-footer-sticky"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span&gt;</span>Sticky footer text<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;span&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"usa-button-primary-alt"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
 </code></pre></div>
 
   </div>
@@ -1283,6 +1304,7 @@
 
 </main>
 
+</div>
 
 <footer class="usa-footer usa-footer-medium site" role="contentinfo">
 </footer>
