@@ -1,5 +1,5 @@
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-<header class="usa-header site-header" role="banner">
+<header class="usa-header usa-header-extended site-header" role="banner">
   {% include banner.html %}
   <div class="usa-navbar site-header-navbar">
     <button class="usa-menu-btn">Menu</button>
@@ -18,27 +18,29 @@
     </div>
     {% include download-buttons.html %}
   </div>
-</header>
-<nav class="site-nav-secondary sticky">
-  <ul>
-    {%
-      include nav/list.html
-      links=site.data.nav.primary
-      rel='contains'
-      flat=true
-    %}
-  </ul>
-</nav>
-<div class="usa-overlay"></div>
+  <nav class="usa-nav site-nav-secondary sticky">
+    <div class="usa-nav-inner">
+      <ul>
+        {%
+          include nav/list.html
+          links=site.data.nav.primary
+          rel='contains'
+          flat=true
+        %}
+      </ul>
+    </div>
+  </nav>
+  <div class="usa-overlay"></div>
 
-<nav role="navigation" class="usa-nav sidenav-mobile">
-  <div class="usa-nav-inner">
-    <button class="usa-nav-close">
-      <img src="{{ site.baseurl }}/assets/img/close.svg" alt="close">
-    </button>
-    <ul class="usa-sidenav-list usa-accordion">
-      {% include nav/sections.html sections=site.data.nav.mobile %}
-    </ul>
-    {% include download-buttons.html %}
-  </div>
-</nav>
+  <nav role="navigation" class="usa-nav sidenav-mobile">
+    <div class="usa-nav-inner">
+      <button class="usa-nav-close">
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="close">
+      </button>
+      <ul class="usa-sidenav-list usa-accordion">
+        {% include nav/sections.html sections=site.data.nav.mobile %}
+      </ul>
+      {% include download-buttons.html %}
+    </div>
+  </nav>
+</header>
