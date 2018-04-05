@@ -153,6 +153,7 @@ subnav:
   </a>
   <a class="usa-button" href="{{ site.baseurl }}/components/headers/extended-mega/">Demo extended header with mega menu</a>
 </div>
+
 {% include code/accordion.html component="header-extended-mega" %}
 <div class="usa-accordion-bordered">
   <button class="usa-button-unstyled usa-accordion-button"
@@ -173,3 +174,67 @@ subnav:
     <P>Consider using a basic dropdown rather than a mega menu unless you need to link to a very large number of sub pages.</P>
   </div>
 </div>
+
+<h2 class="usa-heading" id="sticky-header">Sticky header</h2>
+<h3 class="sticky-bar top">
+  <span id="sticky-bar-desc-container">
+    <span id="sticky-bar-forestname"><b>Forest name</b></span>
+    <span class="sticky-bar-label">Pricing information</span>
+  </span>
+  <span class="sticky-bar-button">
+    <button class="usa-button">Buy button</button>
+  </span>
+</h3>
+<div class="usa-accordion-bordered margin-top-2">
+  <button class="usa-button-unstyled usa-accordion-button"
+    aria-expanded="true" aria-controls="docs-header-sticky">
+    Documentation
+  </button>
+  <div id="docs-header-sticky" class="usa-accordion-content">
+    <h4 class="usa-heading">What it does</h4>
+    <p>The sticky header is a banner that is fixed to the top of the screen as the user scrolls down the page.</p>
+    <h4 class="usa-heading">Why use it</h4>
+    <p>Use a sticky header if you have important information that you would like the user to see no matter where they are scrolled to on the page.</p>
+  </div>
+</div>
+
+<h2>Progress bar</h2>
+<div class="usa-width-two-thirds vertical-center">
+    <div class="usa-width-one-fourth trees-progress-bar">
+      <div class="trees-progress-bar-img done">
+        <div class="site-subheading">CHOOSE FOREST</div>
+      </div>
+      <div class="arrow">&nbsp;</div>
+    </div>
+    <div class="usa-width-one-fourth trees-progress-bar">
+      <div class="trees-progress-bar-img current">
+        <div class="site-subheading">PERMIT DETAILS</div>
+      </div>
+      <div class="arrow current">&nbsp;</div>
+    </div>
+    <div class="usa-width-one-fourth trees-progress-bar">
+      <div class="trees-progress-bar-img next">
+        <div class="site-subheading">PAYMENT</div>
+      </div>
+      <div class="arrow next">&nbsp;</div>
+    </div>
+    <div class="usa-width-one-fourth trees-progress-bar">
+      <div class="trees-progress-bar-img next">
+        <div class="site-subheading">PRINT PERMIT</div>
+      </div>
+      <div>&nbsp;</div>
+    </div>
+  </div>
+
+  <div class="usa-accordion-bordered margin-top-2">
+    <button class="usa-button-unstyled usa-accordion-button"
+      aria-expanded="true" aria-controls="docs-header-progress">
+      Documentation
+    </button>
+    <div id="docs-header-progress" class="usa-accordion-content">
+      <h4 class="usa-heading">What it does</h4>
+      <p>Indicates to the user where they are currently at in the application process.</p>
+      <h4 class="usa-heading">Why use it</h4>
+      <p>So that the user knows that there is multiple steps to accomplish a task.</p>
+    </div>
+  </div>
