@@ -4318,6 +4318,60 @@ select {
   border-color: #eeece5 rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0.1) !important;
   background-color: #076727 !important; }
 
+.sticky-bar {
+  background: white;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  webkit-transition: -webkit-all .5s;
+  -moz-transition: -moz-all .5s;
+  -ms-transition: -ms-all .5s;
+  -o-transition: -o-all .5s;
+  transition: all .5s;
+  width: 100%;
+  z-index: 1000;
+  left: -58px;
+  padding: 12px 1em 11px 68px; }
+  @media (min-width: 951px) {
+    .sticky-bar {
+      left: 0;
+      padding: 0; } }
+  .sticky-bar.fixed {
+    position: fixed; }
+  .sticky-bar.top {
+    top: 0;
+    box-shadow: 0px 4px 20px #656565; }
+  .sticky-bar.bottom {
+    left: 0;
+    padding: 0;
+    bottom: 0;
+    box-shadow: 0px -4px 20px #656565; }
+  .sticky-bar h3 {
+    margin-bottom: 0;
+    margin-top: 0; }
+  .sticky-bar button {
+    margin-left: 2rem; }
+    @media (max-width: 600px) {
+      .sticky-bar button {
+        width: 100%;
+        margin-left: 0; } }
+  .sticky-bar #sticky-bar-forestname {
+    display: none; }
+    @media (min-width: 951px) {
+      .sticky-bar #sticky-bar-forestname {
+        display: inline-block; } }
+  .sticky-bar #sticky-bar-forestname {
+    font-size: 2rem; }
+  .sticky-bar #sticky-bar-desc-container span {
+    padding: 2rem; }
+  @media (max-width: 600px) {
+    .sticky-bar #sticky-bar-desc-container {
+      display: none; } }
+
+.sticky-bar-label {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-weight: normal; }
+
 .usa-table.fs-table th,
 .usa-table.fs-table td {
   border: none;
@@ -4788,6 +4842,53 @@ footer.usa-footer .footer-section-bottom {
     text-align: center;
     top: 40%;
     width: 80%; }
+
+.trees-progress-bar {
+  padding-bottom: 50px;
+  padding-right: 1px;
+  margin-right: 1px !important;
+  height: 80px; }
+  @media (max-width: 600px) {
+    .trees-progress-bar {
+      display: none; } }
+  .trees-progress-bar .arrow {
+    background-image: url(../assets/img/us-forest-service/site-wide/green-arrow.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: -20px;
+    top: -13px;
+    width: 80%;
+    font-size: 1rem; }
+    .trees-progress-bar .arrow.current {
+      background-image: url(../assets/img/us-forest-service/site-wide/dark-tan-arrow.svg); }
+    .trees-progress-bar .arrow.next {
+      background-image: url(../assets/img/us-forest-service/site-wide/dark-tan-arrow.svg); }
+    @media (max-width: 600px) {
+      .trees-progress-bar .arrow {
+        display: none; } }
+    @media (max-width: 1201px) {
+      .trees-progress-bar .arrow {
+        width: 75%; } }
+
+.trees-progress-bar-img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: white;
+  background-color: #076727; }
+  .trees-progress-bar-img .site-subheading {
+    color: #212121;
+    width: 200px;
+    font-size: 1.2rem;
+    padding-top: 24px; }
+  .trees-progress-bar-img.done {
+    background-image: url(../assets/img/us-forest-service/site-wide/checkmark.svg);
+    background-color: #eeece5; }
+  .trees-progress-bar-img.current {
+    background-color: #076727;
+    background-image: url(../assets/img/us-forest-service/site-wide/current-step-icon.svg); }
+  .trees-progress-bar-img.next {
+    background-color: #d6d2c1; }
 
 .forest-service .site-nav-secondary a {
   color: #076727; }
